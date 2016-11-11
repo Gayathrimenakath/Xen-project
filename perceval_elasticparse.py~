@@ -1,0 +1,51 @@
+import perceval.backends as backend
+import elasticsearch
+
+import logging
+
+import argparse
+
+msg_ids = []
+msg_json = []
+
+
+# ElasticSearch instance (url)
+es = elasticsearch.Elasticsearch(['http://localhost:9200/'])
+
+# Create the 'commits' index in ElasticSearch
+es.indices.create('mboxes')
+# Create a Git object, pointing to repo_url, using repo_dir for cloning
+class MboxParser:
+
+    def getmbox(self, mbox_files):
+        mbox_parser = backend.mbox.MBox(
+                uri = mbox_files,
+                dirpath='./mboxes'
+        )
+        return mbox_parser.fetch()
+
+    def elastic(self, mbox_files):
+        percevalout = self.getmbox(mbox_files)
+        message_id = ''
+        # Fetch all commits as an iteratoir, and iterate it uploading to ElasticSearch
+        for mboxes in percevalout:           
+    	    # Create the object (dictionary) to upload to ElasticSearch
+            summary = {'message': mboxes['data']['Message-ID'],
+                       'Sender': commit['data']['X-Env-Sender']}
+            print(summary)
+            # Upload the object to ElasticSearch
+            es.index(index='mboxes', doc_type='summary', body=summary)
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--mbox",required=True,help="Give the name of the mbox file to be parsed")
+    #parser.add_argument("--output", required=True, help="Name of the output json file")
+    args = parser.parse_args()
+    logging.basicConfig(filename='perceval_mbox_parse.log', level=logging.DEBUG)
+    mparser = MboxParser()
+    mparser.elastic(args.mbox)
+    #print("Output file %s created"%args.output)
+
+if __name__ == "__main__":
+    main()
+
