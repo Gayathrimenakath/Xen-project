@@ -29,30 +29,6 @@ class MboxParser:
             with open(output_file,'a') as f:
                 json.dump(item, f, ensure_ascii=True, indent=4)
                 
-        messages = th.message_details(mbox_files, file)
-        with open(output_file,'a') as f:
-            for key, value in messages.items():
-                for k in msg_json:
-                    try:
-                        if key == k['data']['Message-ID'].strip('<>'):
-                            k['property'] = key
-                            json.dump(k, f, ensure_ascii=True, indent=4)
-                            break
-                    except KeyError:
-                            logging.debug('Received an email without the correct Message Id %s', str(k))
-
-                if value:
-                    for i in value:
-                        for j in msg_json:
-                            try:
-                                if i == j['data']['Message-ID'].strip('<>'):
-                                    j['property'] = key
-                                    json.dump(j, f, ensure_ascii=True, indent=4)
-                                    break
-                            except KeyError as e:
-                                logging.debug('Received an email without the correct Message Id')
-
-            f.close()
 
 
         
