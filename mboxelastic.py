@@ -6,6 +6,9 @@ import logging
 
 import jwzthreading as th
 
+from jwzthreading import Container
+container = Container()
+
 import perceval.backends
 import elasticsearch
 
@@ -15,42 +18,42 @@ import argparse
 
 msg_ids = []
 msg_json = []
+messages = []
 
 
 # ElasticSearch instance (url)
 es = elasticsearch.Elasticsearch(['http://localhost:9200/'])
 
-es.indices.create('thm')
-res = es.search(index="mboxes")
+class ElasticThread:
 
-print("%d documents found" % res['hits']['total'])
-for doc in res['hits']['hits']:
-    print("%s) %s" % (doc['_id'], doc['_source'])
+    def threading(self, oldindex, newindex,output_file, file=False):
 
-messages = th.message_details(res, file)
-for key, value in messages.items():
-    for k in msg_json:
-        try:
-            if key == k['data']['Message-ID'].strip('<>'):
-                k['property'] = key
-                summary = {'message': mboxes['data']['Message-ID']}
-            
-            	# Upload the object to ElasticSearch
-            	es.index(index='thm', doc_type='summary', body=summary)
-                break
-        except KeyError:
-                logging.debug('Received an email without the correct Message Id %s', str(k))
+        es.indices.create(newindex)
+        res = es.search(index=oldindex)
 
-    if value:
-        for i in value:
-            for j in msg_json:
-                try:
-                    if i == j['data']['Message-ID'].strip('<>'):
-                        j['property'] = key
-                        summary = {'message': mboxes['data']['Message-ID']}
-            
-            			# Upload the object to ElasticSearch
-            			es.index(index='thm', doc_type='summary', body=summary)
-                        break
-                except KeyError as e:
-                        logging.debug('Received an email without the correct Message Id')
+        print("%d documents found" % res['hits']['total'])
+        for doc in res['hits']['hits']:
+            #print("%s) %s" % (doc['_id'], doc['_source'])
+            #message_id = doc['data']['Message-ID']
+            with open(output_file,'a') as f:
+                json.dump(doc, f, ensure_ascii=True, indent=4)
+
+        messages = th.message_details(output_file, file=True)
+        #es.index(index='thm', doc_type='summary', body=summary)
+
+        
+
+
+def main():
+    parser = argparse.ArgumentParser()
+    parser.add_argument("--oldindex",required=True,help="Give the name of the index to be searched")
+    parser.add_argument("--newindex", required=True, help="Name of the Elasticsearch index to be created")
+    parser.add_argument("--output_file",required=True,help="Give the name of the index to be searched")
+    args = parser.parse_args()
+    logging.basicConfig(filename='perceval_mbox_parse.log', level=logging.DEBUG)
+    mparser = ElasticThread()
+    mparser.threading(args.oldindex, args.newindex, args.output_file)
+
+if __name__ == "__main__":
+    main()
+

@@ -5783,3 +5783,762 @@ DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Thu Sep 22 
 DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Thu Sep 22 16:09:43 2016 parsed
 INFO:perceval.backends.mbox:Done. 198/198 messages fetched; 0 ignored
 INFO:perceval.backends.mbox:Fetch process completed
+INFO:perceval.backends.mbox:Looking for messages from 'http://lists.xenproject.org/archives/html/mbox/xen-devel-2016-03' on './mboxes' since 1970-01-01 00:00:00+00:00
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Thu Sep 01 04:13:05 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.678s]
+DEBUG:elasticsearch:> {"Sender": "jim_burn@bellsouth.net", "message": "<2105965.EkrG3jXbIF@insp3847>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wo9C7bk6GqwBvOVR","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Thu Sep 01 04:13:05 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.081s]
+DEBUG:elasticsearch:> {"Sender": "jim_burn@bellsouth.net", "message": "<2105965.EkrG3jXbIF@insp3847>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wpHr7bk6GqwBvOVS","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Sun Sep 04 14:32:33 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.086s]
+DEBUG:elasticsearch:> {"Sender": "JATINSHR001@e.ntu.edu.sg", "message": "<960EE357-8507-42EE-95FB-77628AE29488@e.ntu.edu.sg>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wpI_7bk6GqwBvOVT","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Sun Sep 04 14:32:33 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.085s]
+DEBUG:elasticsearch:> {"Sender": "JATINSHR001@e.ntu.edu.sg", "message": "<960EE357-8507-42EE-95FB-77628AE29488@e.ntu.edu.sg>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wpKZ7bk6GqwBvOVU","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Mon Sep 05 00:43:55 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.071s]
+DEBUG:elasticsearch:> {"Sender": "chengkunck@gmail.com", "message": "<CAO3v1VTdcK9MbZ88gahRQCWJ_h45dorQy369Hf3L42PkQXtj8Q@mail.gmail.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wpL07bk6GqwBvOVV","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Mon Sep 05 00:43:55 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.076s]
+DEBUG:elasticsearch:> {"Sender": "chengkunck@gmail.com", "message": "<CAO3v1VTdcK9MbZ88gahRQCWJ_h45dorQy369Hf3L42PkQXtj8Q@mail.gmail.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wpM97bk6GqwBvOVW","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Mon Sep 05 10:27:49 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.065s]
+DEBUG:elasticsearch:> {"Sender": "prvs=04983045a=wei.liu2@citrix.com", "message": "<20160905102627.GA28022@citrix.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wpOL7bk6GqwBvOVX","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Mon Sep 05 10:27:49 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.076s]
+DEBUG:elasticsearch:> {"Sender": "prvs=04983045a=wei.liu2@citrix.com", "message": "<20160905102627.GA28022@citrix.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wpPP7bk6GqwBvOVY","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Tue Sep 06 12:56:22 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.065s]
+DEBUG:elasticsearch:> {"Sender": "paulinaszubarczyk@gmail.com", "message": "<57CEBCAE.8010502@gmail.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wpQd7bk6GqwBvOVZ","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Tue Sep 06 12:56:22 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.075s]
+DEBUG:elasticsearch:> {"Sender": "paulinaszubarczyk@gmail.com", "message": "<57CEBCAE.8010502@gmail.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wpRg7bk6GqwBvOVa","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Tue Sep 06 13:30:21 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.075s]
+DEBUG:elasticsearch:> {"Sender": "asw@th.com.br", "message": "<57CEC4A1.6000604@th.com.br>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wpSu7bk6GqwBvOVb","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Tue Sep 06 13:30:21 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.074s]
+DEBUG:elasticsearch:> {"Sender": "asw@th.com.br", "message": "<57CEC4A1.6000604@th.com.br>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wpT87bk6GqwBvOVc","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Tue Sep 06 16:14:24 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.064s]
+DEBUG:elasticsearch:> {"Sender": "prvs=05013da30=anthony.perard@citrix.com", "message": "<20160906161307.GP1847@perard.uk.xensource.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wpVI7bk6GqwBvOVd","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Tue Sep 06 16:14:24 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.065s]
+DEBUG:elasticsearch:> {"Sender": "prvs=05013da30=anthony.perard@citrix.com", "message": "<20160906161307.GP1847@perard.uk.xensource.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wpWK7bk6GqwBvOVe","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Tue Sep 06 16:35:57 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.065s]
+DEBUG:elasticsearch:> {"Sender": "brettstahlman@gmail.com", "message": "<CAOyxqK=cB6Smm5B=D3UfGc9j7uD04M07rqHBDsKFoguWpMfviQ@mail.gmail.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wpXN7bk6GqwBvOVf","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Tue Sep 06 16:35:57 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.065s]
+DEBUG:elasticsearch:> {"Sender": "brettstahlman@gmail.com", "message": "<CAOyxqK=cB6Smm5B=D3UfGc9j7uD04M07rqHBDsKFoguWpMfviQ@mail.gmail.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wpYQ7bk6GqwBvOVg","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Tue Sep 06 22:58:55 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.065s]
+DEBUG:elasticsearch:> {"Sender": "srn@prgmr.com", "message": "<3a13cd14-0139-210c-b1c2-b36cd08ee0c8@prgmr.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wpZT7bk6GqwBvOVh","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Tue Sep 06 22:58:55 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.063s]
+DEBUG:elasticsearch:> {"Sender": "srn@prgmr.com", "message": "<3a13cd14-0139-210c-b1c2-b36cd08ee0c8@prgmr.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wpaW7bk6GqwBvOVi","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 07 05:39:53 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.091s]
+DEBUG:elasticsearch:> {"Sender": "curiouslfq@gmail.com", "message": "<CALS+E5A5+BVQ1QcuaTfw8B-9TX6wRu72fydDvfjgV6WsfCAD4Q@mail.gmail.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wpbg7bk6GqwBvOVj","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 07 05:39:53 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.061s]
+DEBUG:elasticsearch:> {"Sender": "curiouslfq@gmail.com", "message": "<CALS+E5A5+BVQ1QcuaTfw8B-9TX6wRu72fydDvfjgV6WsfCAD4Q@mail.gmail.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wpc_7bk6GqwBvOVk","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 07 05:50:26 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.066s]
+DEBUG:elasticsearch:> {"Sender": "jgross@suse.com", "message": "<36136ded-3d73-06f9-e34d-37def37d2412@suse.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wpd-7bk6GqwBvOVl","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 07 05:50:26 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.075s]
+DEBUG:elasticsearch:> {"Sender": "jgross@suse.com", "message": "<36136ded-3d73-06f9-e34d-37def37d2412@suse.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wpfC7bk6GqwBvOVm","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 07 06:21:40 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.063s]
+DEBUG:elasticsearch:> {"Sender": "curiouslfq@gmail.com", "message": "<CALS+E5CCR9SYhheEnQxRvw7iZyK9ydJB2NyZk_+kax8a7gAhzA@mail.gmail.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wpgQ7bk6GqwBvOVn","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 07 06:21:40 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.065s]
+DEBUG:elasticsearch:> {"Sender": "curiouslfq@gmail.com", "message": "<CALS+E5CCR9SYhheEnQxRvw7iZyK9ydJB2NyZk_+kax8a7gAhzA@mail.gmail.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wphS7bk6GqwBvOVo","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 07 07:15:51 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.055s]
+DEBUG:elasticsearch:> {"Sender": "jgross@suse.com", "message": "<d925d522-4829-2b6a-420e-515cc962e14b@suse.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wpiU7bk6GqwBvOVp","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 07 07:15:51 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.063s]
+DEBUG:elasticsearch:> {"Sender": "jgross@suse.com", "message": "<d925d522-4829-2b6a-420e-515cc962e14b@suse.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wpjN7bk6GqwBvOVq","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 07 08:03:56 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.067s]
+DEBUG:elasticsearch:> {"Sender": "curiouslfq@gmail.com", "message": "<CALS+E5DCjAgihJT5qwTVTKmoNS4A=kE17bYqBp+=nC0-636Ngg@mail.gmail.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wpkO7bk6GqwBvOVr","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 07 08:03:56 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.063s]
+DEBUG:elasticsearch:> {"Sender": "curiouslfq@gmail.com", "message": "<CALS+E5DCjAgihJT5qwTVTKmoNS4A=kE17bYqBp+=nC0-636Ngg@mail.gmail.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wplT7bk6GqwBvOVs","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 07 08:28:14 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.054s]
+DEBUG:elasticsearch:> {"Sender": "jgross@suse.com", "message": "<5dbc41ae-52b6-aa58-71c2-c07e95d84714@suse.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wpmU7bk6GqwBvOVt","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 07 08:28:14 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.065s]
+DEBUG:elasticsearch:> {"Sender": "jgross@suse.com", "message": "<5dbc41ae-52b6-aa58-71c2-c07e95d84714@suse.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wpnL7bk6GqwBvOVu","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 07 09:08:55 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.063s]
+DEBUG:elasticsearch:> {"Sender": "paulinaszubarczyk@gmail.com", "message": "<57CFD908.2020409@gmail.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wpoP7bk6GqwBvOVv","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 07 09:08:55 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.077s]
+DEBUG:elasticsearch:> {"Sender": "paulinaszubarczyk@gmail.com", "message": "<57CFD908.2020409@gmail.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wppQ7bk6GqwBvOVw","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 07 11:14:43 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.063s]
+DEBUG:elasticsearch:> {"Sender": "curiouslfq@gmail.com", "message": "<CALS+E5DS_Op0j6nnuM1rcumX7jXz1MbSXC8O9BzwkiBUB5tVUA@mail.gmail.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wpqh7bk6GqwBvOVx","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 07 11:14:43 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.061s]
+DEBUG:elasticsearch:> {"Sender": "curiouslfq@gmail.com", "message": "<CALS+E5DS_Op0j6nnuM1rcumX7jXz1MbSXC8O9BzwkiBUB5tVUA@mail.gmail.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wprl7bk6GqwBvOVy","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 07 17:00:17 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.063s]
+DEBUG:elasticsearch:> {"Sender": "daniel.e.shub@gmail.com", "message": "<CA+-0u-bi=zTKSUMcu0ZzpU9ka95Zua=zzXLygJ8kKyh_N=nbtg@mail.gmail.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wpsl7bk6GqwBvOVz","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 07 17:00:17 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.066s]
+DEBUG:elasticsearch:> {"Sender": "daniel.e.shub@gmail.com", "message": "<CA+-0u-bi=zTKSUMcu0ZzpU9ka95Zua=zzXLygJ8kKyh_N=nbtg@mail.gmail.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wptm7bk6GqwBvOV0","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Thu Sep 08 00:46:50 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.073s]
+DEBUG:elasticsearch:> {"Sender": "curiouslfq@gmail.com", "message": "<CALS+E5CqqrH8GcjqXKi=y6PwgDhY2FLnMp6XLQMSaGguw+KyKg@mail.gmail.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wpus7bk6GqwBvOV1","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Thu Sep 08 00:46:50 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.097s]
+DEBUG:elasticsearch:> {"Sender": "curiouslfq@gmail.com", "message": "<CALS+E5CqqrH8GcjqXKi=y6PwgDhY2FLnMp6XLQMSaGguw+KyKg@mail.gmail.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wpv47bk6GqwBvOV2","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Thu Sep 08 12:02:02 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.075s]
+DEBUG:elasticsearch:> {"Sender": "iwj@xenbits.xen.org", "message": "<E1bhy0k-0000uT-IV@xenbits.xenproject.org>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wpxb7bk6GqwBvOV3","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Thu Sep 08 12:02:02 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.077s]
+DEBUG:elasticsearch:> {"Sender": "iwj@xenbits.xen.org", "message": "<E1bhy0g-0000t7-JQ@xenbits.xenproject.org>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wpyo7bk6GqwBvOV4","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Thu Sep 08 12:02:02 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.076s]
+DEBUG:elasticsearch:> {"Sender": "iwj@xenbits.xen.org", "message": "<E1bhy0k-0000uT-IV@xenbits.xenproject.org>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wpz47bk6GqwBvOV5","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Thu Sep 08 12:02:02 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.051s]
+DEBUG:elasticsearch:> {"Sender": "iwj@xenbits.xen.org", "message": "<E1bhy0m-0000vj-TN@xenbits.xenproject.org>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wp1G7bk6GqwBvOV6","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Thu Sep 08 12:02:02 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.076s]
+DEBUG:elasticsearch:> {"Sender": "iwj@xenbits.xen.org", "message": "<E1bhy0g-0000t7-JQ@xenbits.xenproject.org>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wp177bk6GqwBvOV7","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Thu Sep 08 12:02:02 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.074s]
+DEBUG:elasticsearch:> {"Sender": "iwj@xenbits.xen.org", "message": "<E1bhy0m-0000vj-TN@xenbits.xenproject.org>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wp3N7bk6GqwBvOV8","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Thu Sep 08 12:06:17 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.073s]
+DEBUG:elasticsearch:> {"Sender": "iwj@xenbits.xen.org", "message": "<E1bhy4i-0001oa-Fi@xenbits.xenproject.org>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wp4a7bk6GqwBvOV9","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Thu Sep 08 12:06:17 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.068s]
+DEBUG:elasticsearch:> {"Sender": "iwj@xenbits.xen.org", "message": "<E1bhy4i-0001oa-Fi@xenbits.xenproject.org>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wp5u7bk6GqwBvOV-","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Thu Sep 08 13:38:21 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.075s]
+DEBUG:elasticsearch:> {"Sender": "daniel.e.shub@gmail.com", "message": "<CA+-0u-YqNuQ60pZHDRVEGX8ktyDph+q7nFODCJkGbzieOW0RbA@mail.gmail.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wp607bk6GqwBvOV_","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Thu Sep 08 13:38:21 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.064s]
+DEBUG:elasticsearch:> {"Sender": "daniel.e.shub@gmail.com", "message": "<CA+-0u-YqNuQ60pZHDRVEGX8ktyDph+q7nFODCJkGbzieOW0RbA@mail.gmail.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wp8B7bk6GqwBvOWA","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Thu Sep 08 15:58:19 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.086s]
+DEBUG:elasticsearch:> {"Sender": "curiouslfq@gmail.com", "message": "<CALS+E5BNDNLnjoaoDNsUfMd6wJUP2sxoZ=hOqF9-LXZ-dnxzQw@mail.gmail.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wp9E7bk6GqwBvOWB","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Thu Sep 08 15:58:19 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.075s]
+DEBUG:elasticsearch:> {"Sender": "curiouslfq@gmail.com", "message": "<CALS+E5BNDNLnjoaoDNsUfMd6wJUP2sxoZ=hOqF9-LXZ-dnxzQw@mail.gmail.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wp-d7bk6GqwBvOWC","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Thu Sep 08 19:44:21 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.054s]
+DEBUG:elasticsearch:> {"Sender": "brettstahlman@gmail.com", "message": "<CAOyxqKnbt6aaBNC+y_hp1_Sh8UkQe_stFqFg52GPypoNhpjFaw@mail.gmail.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wp_q7bk6GqwBvOWD","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Thu Sep 08 19:44:21 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.053s]
+DEBUG:elasticsearch:> {"Sender": "brettstahlman@gmail.com", "message": "<CAOyxqKnbt6aaBNC+y_hp1_Sh8UkQe_stFqFg52GPypoNhpjFaw@mail.gmail.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wqAj7bk6GqwBvOWE","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Fri Sep 09 07:52:57 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.076s]
+DEBUG:elasticsearch:> {"Sender": "miles@atmos.eu", "message": "<02b85238-cacb-a994-2402-d0aa4fc8d7b3@atmos.eu>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wqBZ7bk6GqwBvOWF","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Fri Sep 09 07:52:57 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.065s]
+DEBUG:elasticsearch:> {"Sender": "miles@atmos.eu", "message": "<02b85238-cacb-a994-2402-d0aa4fc8d7b3@atmos.eu>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wqCn7bk6GqwBvOWG","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Fri Sep 09 09:36:21 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.052s]
+DEBUG:elasticsearch:> {"Sender": "miles@atmos.eu", "message": "<3d258ed8-4cb2-e6e0-76b7-81f06c835b53@atmos.eu>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wqDr7bk6GqwBvOWH","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Fri Sep 09 09:36:21 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.076s]
+DEBUG:elasticsearch:> {"Sender": "miles@atmos.eu", "message": "<3d258ed8-4cb2-e6e0-76b7-81f06c835b53@atmos.eu>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wqEh7bk6GqwBvOWI","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Fri Sep 09 11:52:14 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.071s]
+DEBUG:elasticsearch:> {"Sender": "asw@th.com.br", "message": "<57D2A1EF.2040800@th.com.br>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wqF07bk6GqwBvOWJ","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Fri Sep 09 11:52:14 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.052s]
+DEBUG:elasticsearch:> {"Sender": "asw@th.com.br", "message": "<57D2A1EF.2040800@th.com.br>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wqG-7bk6GqwBvOWK","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Fri Sep 09 18:17:16 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.054s]
+DEBUG:elasticsearch:> {"Sender": "twalter@thetatts.com", "message": "<321ab637b33b477b89911ef32f7b5658@thetatts.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wqH07bk6GqwBvOWL","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Fri Sep 09 18:17:16 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.063s]
+DEBUG:elasticsearch:> {"Sender": "twalter@thetatts.com", "message": "<321ab637b33b477b89911ef32f7b5658@thetatts.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wqIt7bk6GqwBvOWM","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Fri Sep 09 21:55:23 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.077s]
+DEBUG:elasticsearch:> {"Sender": "brettstahlman@gmail.com", "message": "<CAOyxqK=hzi3+8kVHdYdSCm85umm_=85qaufzNuJumD2UOAe5bQ@mail.gmail.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wqJu7bk6GqwBvOWN","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Fri Sep 09 21:55:23 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.055s]
+DEBUG:elasticsearch:> {"Sender": "brettstahlman@gmail.com", "message": "<CAOyxqK=hzi3+8kVHdYdSCm85umm_=85qaufzNuJumD2UOAe5bQ@mail.gmail.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wqK87bk6GqwBvOWO","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Sat Sep 10 11:12:21 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.086s]
+DEBUG:elasticsearch:> {"Sender": "hakon@alstadheim.priv.no", "message": "<84079ac5-7ef4-b829-d6eb-b8a5b535a095@alstadheim.priv.no>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wqL17bk6GqwBvOWP","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Sat Sep 10 11:12:21 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.064s]
+DEBUG:elasticsearch:> {"Sender": "hakon@alstadheim.priv.no", "message": "<84079ac5-7ef4-b829-d6eb-b8a5b535a095@alstadheim.priv.no>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wqNP7bk6GqwBvOWQ","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Sat Sep 10 14:59:19 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.086s]
+DEBUG:elasticsearch:> {"Sender": "tlviewer@yahoo.com", "message": "<2032814905.2893135.1473519482410@mail.yahoo.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wqOR7bk6GqwBvOWR","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Sat Sep 10 14:59:19 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.064s]
+DEBUG:elasticsearch:> {"Sender": "tlviewer@yahoo.com", "message": "<2032814905.2893135.1473519482410@mail.yahoo.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wqPp7bk6GqwBvOWS","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Sat Sep 10 20:06:09 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.065s]
+DEBUG:elasticsearch:> {"Sender": "srn@prgmr.com", "message": "<42f4d1f8-9d7d-899b-bc3e-6d28df668311@prgmr.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wqQr7bk6GqwBvOWT","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Sat Sep 10 20:06:09 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.066s]
+DEBUG:elasticsearch:> {"Sender": "srn@prgmr.com", "message": "<42f4d1f8-9d7d-899b-bc3e-6d28df668311@prgmr.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wqRu7bk6GqwBvOWU","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Mon Sep 12 13:01:08 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.097s]
+DEBUG:elasticsearch:> {"Sender": "twalter@thetatts.com", "message": "<5474ca841a774407b1d20d34c44e60cd@thetatts.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wqSx7bk6GqwBvOWV","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Mon Sep 12 13:01:08 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.065s]
+DEBUG:elasticsearch:> {"Sender": "twalter@thetatts.com", "message": "<5474ca841a774407b1d20d34c44e60cd@thetatts.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wqUU7bk6GqwBvOWW","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Mon Sep 12 19:01:41 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.065s]
+DEBUG:elasticsearch:> {"Sender": "miles@atmos.eu", "message": "<241e152e-2404-faae-fbe0-f244ca940f1d@atmos.eu>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wqVX7bk6GqwBvOWX","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Mon Sep 12 19:01:41 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.065s]
+DEBUG:elasticsearch:> {"Sender": "miles@atmos.eu", "message": "<241e152e-2404-faae-fbe0-f244ca940f1d@atmos.eu>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wqWa7bk6GqwBvOWY","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Mon Sep 12 20:45:55 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.066s]
+DEBUG:elasticsearch:> {"Sender": "daniel.e.shub@gmail.com", "message": "<CA+-0u-YRdUAj7GQBHJjSSt517Zs_k+yEDDiDFPmu3w8+3mVHOQ@mail.gmail.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wqXc7bk6GqwBvOWZ","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Mon Sep 12 20:45:55 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.074s]
+DEBUG:elasticsearch:> {"Sender": "daniel.e.shub@gmail.com", "message": "<CA+-0u-YRdUAj7GQBHJjSSt517Zs_k+yEDDiDFPmu3w8+3mVHOQ@mail.gmail.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wqYg7bk6GqwBvOWa","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Tue Sep 13 16:33:59 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.063s]
+DEBUG:elasticsearch:> {"Sender": "manurcr@gmail.com", "message": "<CAPccoBT-sdEqouM8G8XVeoUL=sNAHRfmHQU+-Ybzq6koyLBs=g@mail.gmail.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wqZv7bk6GqwBvOWb","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Tue Sep 13 16:33:59 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.076s]
+DEBUG:elasticsearch:> {"Sender": "manurcr@gmail.com", "message": "<CAPccoBT-sdEqouM8G8XVeoUL=sNAHRfmHQU+-Ybzq6koyLBs=g@mail.gmail.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wqax7bk6GqwBvOWc","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Tue Sep 13 18:54:36 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.051s]
+DEBUG:elasticsearch:> {"Sender": "hakon@alstadheim.priv.no", "message": "<7573a1a4-5124-42e4-d6ab-06e707928de6@alstadheim.priv.no>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wqb_7bk6GqwBvOWd","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Tue Sep 13 18:54:36 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.075s]
+DEBUG:elasticsearch:> {"Sender": "hakon@alstadheim.priv.no", "message": "<7573a1a4-5124-42e4-d6ab-06e707928de6@alstadheim.priv.no>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wqc07bk6GqwBvOWe","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Tue Sep 13 19:01:36 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.077s]
+DEBUG:elasticsearch:> {"Sender": "twalter@thetatts.com", "message": "<5d1e6a1823f248cf89a9f260bb607cfc@thetatts.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wqeC7bk6GqwBvOWf","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Tue Sep 13 19:01:36 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.064s]
+DEBUG:elasticsearch:> {"Sender": "twalter@thetatts.com", "message": "<5d1e6a1823f248cf89a9f260bb607cfc@thetatts.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wqfQ7bk6GqwBvOWg","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 10:34:03 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.055s]
+DEBUG:elasticsearch:> {"Sender": "prvs=05898261f=George.Dunlap@citrix.com", "message": "<CAFLBxZb4M4-eZS7GUoWS1xfd_p5QtuQXYmKy==mFHwn_TBPNxg@mail.gmail.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wqgS7bk6GqwBvOWh","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 10:34:03 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.064s]
+DEBUG:elasticsearch:> {"Sender": "prvs=05898261f=George.Dunlap@citrix.com", "message": "<CAFLBxZb4M4-eZS7GUoWS1xfd_p5QtuQXYmKy==mFHwn_TBPNxg@mail.gmail.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wqhM7bk6GqwBvOWi","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 11:04:40 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.076s]
+DEBUG:elasticsearch:> {"Sender": "dunlapg@gmail.com", "message": "<CAFLBxZYVQgWYqHWnBzrO6X2YWE32rvWWmAh25G_PhZHuecOP8g@mail.gmail.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wqiO7bk6GqwBvOWj","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 11:04:40 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.065s]
+DEBUG:elasticsearch:> {"Sender": "dunlapg@gmail.com", "message": "<CAFLBxZYVQgWYqHWnBzrO6X2YWE32rvWWmAh25G_PhZHuecOP8g@mail.gmail.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wqjb7bk6GqwBvOWk","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 11:13:48 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.064s]
+DEBUG:elasticsearch:> {"Sender": "prvs=05898261f=George.Dunlap@citrix.com", "message": "<CAFLBxZYjSZFUMrbk6qQvvH3nkJP6amqM-URhh-Xs10M0sNM36g@mail.gmail.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wqke7bk6GqwBvOWl","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 11:13:48 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.077s]
+DEBUG:elasticsearch:> {"Sender": "prvs=05898261f=George.Dunlap@citrix.com", "message": "<CAFLBxZYjSZFUMrbk6qQvvH3nkJP6amqM-URhh-Xs10M0sNM36g@mail.gmail.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wqlg7bk6GqwBvOWm","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 11:19:48 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.074s]
+DEBUG:elasticsearch:> {"Sender": "prvs=0586b35b8=wei.liu2@citrix.com", "message": "<20160914111910.GZ15958@citrix.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wqmx7bk6GqwBvOWn","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 11:19:48 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.054s]
+DEBUG:elasticsearch:> {"Sender": "prvs=0586b35b8=wei.liu2@citrix.com", "message": "<20160914111910.GZ15958@citrix.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wqn87bk6GqwBvOWo","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 11:35:07 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.075s]
+DEBUG:elasticsearch:> {"Sender": "prvs=05898261f=George.Dunlap@citrix.com", "message": "<CAFLBxZYpPuwXOUhRjaaRJPRX=7iNtHC0H8QusS-H4JeKeZJD0A@mail.gmail.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wqo07bk6GqwBvOWp","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 11:35:07 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.075s]
+DEBUG:elasticsearch:> {"Sender": "prvs=05898261f=George.Dunlap@citrix.com", "message": "<CAFLBxZYpPuwXOUhRjaaRJPRX=7iNtHC0H8QusS-H4JeKeZJD0A@mail.gmail.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wqqC7bk6GqwBvOWq","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 11:36:30 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.099s]
+DEBUG:elasticsearch:> {"Sender": "dunlapg@gmail.com", "message": "<CAFLBxZZ20Y24NP+bxE2CNd1ZUZ1hGm+O2AObH0sm7b+woRVoSw@mail.gmail.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wqrP7bk6GqwBvOWr","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 11:36:30 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.065s]
+DEBUG:elasticsearch:> {"Sender": "dunlapg@gmail.com", "message": "<CAFLBxZZ20Y24NP+bxE2CNd1ZUZ1hGm+O2AObH0sm7b+woRVoSw@mail.gmail.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wqs07bk6GqwBvOWs","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 11:51:29 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.066s]
+DEBUG:elasticsearch:> {"Sender": "miles@atmos.eu", "message": "<0a543b0d-ae2b-48b9-d130-4f39d40a1756@atmos.eu>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wqt37bk6GqwBvOWt","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 11:51:29 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.084s]
+DEBUG:elasticsearch:> {"Sender": "miles@atmos.eu", "message": "<0a543b0d-ae2b-48b9-d130-4f39d40a1756@atmos.eu>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wqu87bk6GqwBvOWu","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 12:51:12 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.064s]
+DEBUG:elasticsearch:> {"Sender": "JBeulich@suse.com", "message": "<57D9639D020000780010ECD4@prv-mh.provo.novell.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wqwT7bk6GqwBvOWv","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 12:51:12 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.087s]
+DEBUG:elasticsearch:> {"Sender": "JBeulich@suse.com", "message": "<57D9639D020000780010ECD4@prv-mh.provo.novell.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wqxU7bk6GqwBvOWw","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 13:16:07 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.066s]
+DEBUG:elasticsearch:> {"Sender": "prvs=05898261f=George.Dunlap@citrix.com", "message": "<CAFLBxZaSvyoY-Eb4qEf1C6=DBUdp1z2x1EBfaCpTsdjQJToYzg@mail.gmail.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wqyt7bk6GqwBvOWx","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 13:16:07 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.064s]
+DEBUG:elasticsearch:> {"Sender": "prvs=05898261f=George.Dunlap@citrix.com", "message": "<CAFLBxZaSvyoY-Eb4qEf1C6=DBUdp1z2x1EBfaCpTsdjQJToYzg@mail.gmail.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wqzx7bk6GqwBvOWy","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 13:30:28 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.065s]
+DEBUG:elasticsearch:> {"Sender": "prvs=05898261f=George.Dunlap@citrix.com", "message": "<a83a3077-1b4f-ae56-47eb-752c81419d7d@citrix.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wq0z7bk6GqwBvOWz","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 13:30:28 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.074s]
+DEBUG:elasticsearch:> {"Sender": "prvs=05898261f=George.Dunlap@citrix.com", "message": "<a83a3077-1b4f-ae56-47eb-752c81419d7d@citrix.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wq137bk6GqwBvOW0","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 13:33:02 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.050s]
+DEBUG:elasticsearch:> {"Sender": "it@niemail.de", "message": "<57D95183.90409@niemail.de>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wq3F7bk6GqwBvOW1","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 13:33:02 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.078s]
+DEBUG:elasticsearch:> {"Sender": "it@niemail.de", "message": "<57D95183.90409@niemail.de>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wq367bk6GqwBvOW2","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 13:51:06 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.079s]
+DEBUG:elasticsearch:> {"Sender": "prvs=05898261f=George.Dunlap@citrix.com", "message": "<CAFLBxZYr+OZQxFZmt-PPpb32NwP9Gj3TE-GWSozxqL1Fw5TMnA@mail.gmail.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wq5J7bk6GqwBvOW3","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 13:51:06 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.083s]
+DEBUG:elasticsearch:> {"Sender": "prvs=05898261f=George.Dunlap@citrix.com", "message": "<CAFLBxZYr+OZQxFZmt-PPpb32NwP9Gj3TE-GWSozxqL1Fw5TMnA@mail.gmail.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wq6b7bk6GqwBvOW4","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 14:05:23 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.062s]
+DEBUG:elasticsearch:> {"Sender": "miles@atmos.eu", "message": "<014bee96-61a0-4c45-c24c-f306712136f0@atmos.eu>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wq7y7bk6GqwBvOW5","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 14:05:23 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.078s]
+DEBUG:elasticsearch:> {"Sender": "miles@atmos.eu", "message": "<014bee96-61a0-4c45-c24c-f306712136f0@atmos.eu>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wq8x7bk6GqwBvOW6","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 14:17:19 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.076s]
+DEBUG:elasticsearch:> {"Sender": "miles@atmos.eu", "message": "<77cf8419-253d-57f7-94b5-0dcf09859837@atmos.eu>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wq-A7bk6GqwBvOW7","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 14:17:19 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.062s]
+DEBUG:elasticsearch:> {"Sender": "miles@atmos.eu", "message": "<77cf8419-253d-57f7-94b5-0dcf09859837@atmos.eu>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wq_P7bk6GqwBvOW8","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 14:40:33 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.078s]
+DEBUG:elasticsearch:> {"Sender": "miles@atmos.eu", "message": "<f49c037e-1ec3-6bb7-b2e0-dc9dc521fd0a@atmos.eu>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wrAP7bk6GqwBvOW9","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 14:40:33 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.063s]
+DEBUG:elasticsearch:> {"Sender": "brettstahlman@gmail.com", "message": "<CAOyxqK=p4GjLjfjzQKjLR7AeR5tBaEhNCwvTnLhrzjguvT-RNQ@mail.gmail.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wrBf7bk6GqwBvOW-","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 14:40:33 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.088s]
+DEBUG:elasticsearch:> {"Sender": "brettstahlman@gmail.com", "message": "<CAOyxqK=p4GjLjfjzQKjLR7AeR5tBaEhNCwvTnLhrzjguvT-RNQ@mail.gmail.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wrCf7bk6GqwBvOW_","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 14:40:33 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.072s]
+DEBUG:elasticsearch:> {"Sender": "miles@atmos.eu", "message": "<f49c037e-1ec3-6bb7-b2e0-dc9dc521fd0a@atmos.eu>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wrD97bk6GqwBvOXA","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 14:50:12 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.065s]
+DEBUG:elasticsearch:> {"Sender": "JBeulich@suse.com", "message": "<57D97FB3020000780010EE16@prv-mh.provo.novell.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wrFH7bk6GqwBvOXB","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 14:50:12 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.063s]
+DEBUG:elasticsearch:> {"Sender": "JBeulich@suse.com", "message": "<57D97FB3020000780010EE16@prv-mh.provo.novell.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wrGK7bk6GqwBvOXC","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 15:20:19 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.090s]
+DEBUG:elasticsearch:> {"Sender": "prvs=05898261f=George.Dunlap@citrix.com", "message": "<967c7351-32c8-a767-039d-ea6b5b61c4dd@citrix.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wrHL7bk6GqwBvOXD","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 15:20:19 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.073s]
+DEBUG:elasticsearch:> {"Sender": "prvs=05898261f=George.Dunlap@citrix.com", "message": "<967c7351-32c8-a767-039d-ea6b5b61c4dd@citrix.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wrIp7bk6GqwBvOXE","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 15:30:00 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.063s]
+DEBUG:elasticsearch:> {"Sender": "miles@atmos.eu", "message": "<1d981a89-14dc-127d-8114-64b1beda575e@atmos.eu>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wrJ17bk6GqwBvOXF","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 15:30:00 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.076s]
+DEBUG:elasticsearch:> {"Sender": "miles@atmos.eu", "message": "<1d981a89-14dc-127d-8114-64b1beda575e@atmos.eu>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wrK27bk6GqwBvOXG","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 15:42:41 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.076s]
+DEBUG:elasticsearch:> {"Sender": "brettstahlman@gmail.com", "message": "<CAOyxqKmpLuTbgLDpgA8QReUm7_4j5Oih5ceTSbANX1Ya367OTg@mail.gmail.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wrMD7bk6GqwBvOXH","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 15:42:41 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.064s]
+DEBUG:elasticsearch:> {"Sender": "brettstahlman@gmail.com", "message": "<CAOyxqKmpLuTbgLDpgA8QReUm7_4j5Oih5ceTSbANX1Ya367OTg@mail.gmail.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wrNT7bk6GqwBvOXI","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 15:48:06 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.073s]
+DEBUG:elasticsearch:> {"Sender": "manurcr@gmail.com", "message": "<CAPccoBSb4U9e6D8JJqiXEYzFGkUjhLjSUbrYGEm=fwdcq4SzeQ@mail.gmail.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wrOW7bk6GqwBvOXJ","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 15:48:06 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.074s]
+DEBUG:elasticsearch:> {"Sender": "manurcr@gmail.com", "message": "<CAPccoBSb4U9e6D8JJqiXEYzFGkUjhLjSUbrYGEm=fwdcq4SzeQ@mail.gmail.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wrPj7bk6GqwBvOXK","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 16:04:39 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.076s]
+DEBUG:elasticsearch:> {"Sender": "prvs=05821cc2b=Andrew.Cooper3@citrix.com", "message": "<dd4f71ce-383e-aade-3244-5099ef4e019b@citrix.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wrQv7bk6GqwBvOXL","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 16:04:39 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.075s]
+DEBUG:elasticsearch:> {"Sender": "prvs=05821cc2b=Andrew.Cooper3@citrix.com", "message": "<dd4f71ce-383e-aade-3244-5099ef4e019b@citrix.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wrR_7bk6GqwBvOXM","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 17:02:43 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.074s]
+DEBUG:elasticsearch:> {"Sender": "ahferroin7@gmail.com", "message": "<2f8653e7-22c3-5caf-85a2-d061625808ea@gmail.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wrTN7bk6GqwBvOXN","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 17:02:43 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mbo/summary HTTP/1.1" 201 139
+INFO:elasticsearch:POST http://localhost:9200/mbo/summary [status:201 request:0.065s]
+DEBUG:elasticsearch:> {"Sender": "ahferroin7@gmail.com", "message": "<2f8653e7-22c3-5caf-85a2-d061625808ea@gmail.com>"}
+DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wrUZ7bk6GqwBvOXO","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 18:30:11 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)

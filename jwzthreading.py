@@ -324,6 +324,7 @@ def message_details(filename, file):
     else:
         mbox = mailbox.mbox('mbox')
     msglist = []
+    messages = []
     global mbox
     for message in mbox:
         m = make_message(message)
@@ -333,9 +334,13 @@ def message_details(filename, file):
 
     L = subject_table.items()
     sorted(L)
+    m2 = []
     for subj, container in L:
-        messages[subj] = []
-        msg_ids(container, messages[subj])
+        for h in subj:
+            m2.append(h)
+            for x,y in enumerate(m2):
+                messages[x] = []
+                msg_ids(container, messages[subj])
 
     os.remove('mbox')
     return messages
