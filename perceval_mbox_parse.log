@@ -6542,3 +6542,1211 @@ DEBUG:elasticsearch:> {"Sender": "ahferroin7@gmail.com", "message": "<2f8653e7-2
 DEBUG:elasticsearch:< {"_index":"mbo","_type":"summary","_id":"AVn0wrUZ7bk6GqwBvOXO","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
 DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 18:30:11 2016 parsed
 DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost
+DEBUG:urllib3.connectionpool:http://localhost:9200 "PUT /mboxes HTTP/1.1" 200 21
+INFO:elasticsearch:PUT http://localhost:9200/mboxes [status:200 request:0.268s]
+DEBUG:elasticsearch:> None
+DEBUG:elasticsearch:< {"acknowledged":true}
+INFO:perceval.backends.mbox:Looking for messages from 'http://lists.xenproject.org/archives/html/mbox/xen-devel-2016-03' on './mboxes' since 1970-01-01 00:00:00+00:00
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Thu Sep 01 04:13:05 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.620s]
+DEBUG:elasticsearch:> {"Sender": "jim_burn@bellsouth.net", "message": "<2105965.EkrG3jXbIF@insp3847>", "subject": "[Xen-users] Openindiana, using -machine pc,accel=xen in qemu"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY23u2mUW8kl74hDDL","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Thu Sep 01 04:13:05 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.083s]
+DEBUG:elasticsearch:> {"Sender": "jim_burn@bellsouth.net", "message": "<2105965.EkrG3jXbIF@insp3847>", "subject": "[Xen-users] Openindiana, using -machine pc,accel=xen in qemu"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY234lmUW8kl74hDDM","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Sun Sep 04 14:32:33 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.070s]
+DEBUG:elasticsearch:> {"Sender": "JATINSHR001@e.ntu.edu.sg", "message": "<960EE357-8507-42EE-95FB-77628AE29488@e.ntu.edu.sg>", "subject": "[Xen-users] Compiling xen-netback from the Linux Kernel source"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY2358mUW8kl74hDDN","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Sun Sep 04 14:32:33 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.070s]
+DEBUG:elasticsearch:> {"Sender": "JATINSHR001@e.ntu.edu.sg", "message": "<960EE357-8507-42EE-95FB-77628AE29488@e.ntu.edu.sg>", "subject": "[Xen-users] Compiling xen-netback from the Linux Kernel source"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY237EmUW8kl74hDDO","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Mon Sep 05 00:43:55 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.080s]
+DEBUG:elasticsearch:> {"Sender": "chengkunck@gmail.com", "message": "<CAO3v1VTdcK9MbZ88gahRQCWJ_h45dorQy369Hf3L42PkQXtj8Q@mail.gmail.com>", "subject": "Re: [Xen-users] Compiling xen-netback from the Linux Kernel source"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY238NmUW8kl74hDDP","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Mon Sep 05 00:43:55 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.053s]
+DEBUG:elasticsearch:> {"Sender": "chengkunck@gmail.com", "message": "<CAO3v1VTdcK9MbZ88gahRQCWJ_h45dorQy369Hf3L42PkQXtj8Q@mail.gmail.com>", "subject": "Re: [Xen-users] Compiling xen-netback from the Linux Kernel source"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY239fmUW8kl74hDDQ","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Mon Sep 05 10:27:49 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.070s]
+DEBUG:elasticsearch:> {"Sender": "prvs=04983045a=wei.liu2@citrix.com", "message": "<20160905102627.GA28022@citrix.com>", "subject": "Re: [Xen-users] PV guests concurrent running limit"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY23-WmUW8kl74hDDR","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Mon Sep 05 10:27:49 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.060s]
+DEBUG:elasticsearch:> {"Sender": "prvs=04983045a=wei.liu2@citrix.com", "message": "<20160905102627.GA28022@citrix.com>", "subject": "Re: [Xen-users] PV guests concurrent running limit"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY23_emUW8kl74hDDS","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Tue Sep 06 12:56:22 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.053s]
+DEBUG:elasticsearch:> {"Sender": "paulinaszubarczyk@gmail.com", "message": "<57CEBCAE.8010502@gmail.com>", "subject": "[Xen-users] HVMLoader bug - staging"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY24AcmUW8kl74hDDT","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Tue Sep 06 12:56:22 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.054s]
+DEBUG:elasticsearch:> {"Sender": "paulinaszubarczyk@gmail.com", "message": "<57CEBCAE.8010502@gmail.com>", "subject": "[Xen-users] HVMLoader bug - staging"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY24BTmUW8kl74hDDU","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Tue Sep 06 13:30:21 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.077s]
+DEBUG:elasticsearch:> {"Sender": "asw@th.com.br", "message": "<57CEC4A1.6000604@th.com.br>", "subject": "Re: [Xen-users] PV guests concurrent running limit"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY24CPmUW8kl74hDDV","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Tue Sep 06 13:30:21 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.069s]
+DEBUG:elasticsearch:> {"Sender": "asw@th.com.br", "message": "<57CEC4A1.6000604@th.com.br>", "subject": "Re: [Xen-users] PV guests concurrent running limit"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY24DgmUW8kl74hDDW","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Tue Sep 06 16:14:24 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.071s]
+DEBUG:elasticsearch:> {"Sender": "prvs=05013da30=anthony.perard@citrix.com", "message": "<20160906161307.GP1847@perard.uk.xensource.com>", "subject": "Re: [Xen-users] HVMLoader bug - staging"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY24EmmUW8kl74hDDX","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Tue Sep 06 16:14:24 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.059s]
+DEBUG:elasticsearch:> {"Sender": "prvs=05013da30=anthony.perard@citrix.com", "message": "<20160906161307.GP1847@perard.uk.xensource.com>", "subject": "Re: [Xen-users] HVMLoader bug - staging"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY24FvmUW8kl74hDDY","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Tue Sep 06 16:35:57 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.070s]
+DEBUG:elasticsearch:> {"Sender": "brettstahlman@gmail.com", "message": "<CAOyxqK=cB6Smm5B=D3UfGc9j7uD04M07rqHBDsKFoguWpMfviQ@mail.gmail.com>", "subject": "[Xen-users] Wrong version of xen-utils after building xen from\n source causes xen to exit with error"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY24GsmUW8kl74hDDZ","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Tue Sep 06 16:35:57 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.054s]
+DEBUG:elasticsearch:> {"Sender": "brettstahlman@gmail.com", "message": "<CAOyxqK=cB6Smm5B=D3UfGc9j7uD04M07rqHBDsKFoguWpMfviQ@mail.gmail.com>", "subject": "[Xen-users] Wrong version of xen-utils after building xen from\n source causes xen to exit with error"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY24HzmUW8kl74hDDa","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Tue Sep 06 22:58:55 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.077s]
+DEBUG:elasticsearch:> {"Sender": "srn@prgmr.com", "message": "<3a13cd14-0139-210c-b1c2-b36cd08ee0c8@prgmr.com>", "subject": "Re: [Xen-users] PV guests concurrent running limit"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY24IrmUW8kl74hDDb","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Tue Sep 06 22:58:55 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.070s]
+DEBUG:elasticsearch:> {"Sender": "srn@prgmr.com", "message": "<3a13cd14-0139-210c-b1c2-b36cd08ee0c8@prgmr.com>", "subject": "Re: [Xen-users] PV guests concurrent running limit"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY24J6mUW8kl74hDDc","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 07 05:39:53 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.068s]
+DEBUG:elasticsearch:> {"Sender": "curiouslfq@gmail.com", "message": "<CALS+E5A5+BVQ1QcuaTfw8B-9TX6wRu72fydDvfjgV6WsfCAD4Q@mail.gmail.com>", "subject": "[Xen-users] a question with gplpv"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY24LEmUW8kl74hDDd","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 07 05:39:53 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.063s]
+DEBUG:elasticsearch:> {"Sender": "curiouslfq@gmail.com", "message": "<CALS+E5A5+BVQ1QcuaTfw8B-9TX6wRu72fydDvfjgV6WsfCAD4Q@mail.gmail.com>", "subject": "[Xen-users] a question with gplpv"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY24MLmUW8kl74hDDe","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 07 05:50:26 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.065s]
+DEBUG:elasticsearch:> {"Sender": "jgross@suse.com", "message": "<36136ded-3d73-06f9-e34d-37def37d2412@suse.com>", "subject": "Re: [Xen-users] a question with gplpv"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY24NMmUW8kl74hDDf","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 07 05:50:26 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.054s]
+DEBUG:elasticsearch:> {"Sender": "jgross@suse.com", "message": "<36136ded-3d73-06f9-e34d-37def37d2412@suse.com>", "subject": "Re: [Xen-users] a question with gplpv"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY24OPmUW8kl74hDDg","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 07 06:21:40 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.063s]
+DEBUG:elasticsearch:> {"Sender": "curiouslfq@gmail.com", "message": "<CALS+E5CCR9SYhheEnQxRvw7iZyK9ydJB2NyZk_+kax8a7gAhzA@mail.gmail.com>", "subject": "Re: [Xen-users] a question with gplpv"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY24PImUW8kl74hDDh","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 07 06:21:40 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.071s]
+DEBUG:elasticsearch:> {"Sender": "curiouslfq@gmail.com", "message": "<CALS+E5CCR9SYhheEnQxRvw7iZyK9ydJB2NyZk_+kax8a7gAhzA@mail.gmail.com>", "subject": "Re: [Xen-users] a question with gplpv"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY24QJmUW8kl74hDDi","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 07 07:15:51 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.070s]
+DEBUG:elasticsearch:> {"Sender": "jgross@suse.com", "message": "<d925d522-4829-2b6a-420e-515cc962e14b@suse.com>", "subject": "Re: [Xen-users] a question with gplpv"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY24RSmUW8kl74hDDj","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 07 07:15:51 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.054s]
+DEBUG:elasticsearch:> {"Sender": "jgross@suse.com", "message": "<d925d522-4829-2b6a-420e-515cc962e14b@suse.com>", "subject": "Re: [Xen-users] a question with gplpv"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY24SZmUW8kl74hDDk","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 07 08:03:56 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.054s]
+DEBUG:elasticsearch:> {"Sender": "curiouslfq@gmail.com", "message": "<CALS+E5DCjAgihJT5qwTVTKmoNS4A=kE17bYqBp+=nC0-636Ngg@mail.gmail.com>", "subject": "Re: [Xen-users] a question with gplpv"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY24TRmUW8kl74hDDl","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 07 08:03:56 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.066s]
+DEBUG:elasticsearch:> {"Sender": "curiouslfq@gmail.com", "message": "<CALS+E5DCjAgihJT5qwTVTKmoNS4A=kE17bYqBp+=nC0-636Ngg@mail.gmail.com>", "subject": "Re: [Xen-users] a question with gplpv"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY24UImUW8kl74hDDm","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 07 08:28:14 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.054s]
+DEBUG:elasticsearch:> {"Sender": "jgross@suse.com", "message": "<5dbc41ae-52b6-aa58-71c2-c07e95d84714@suse.com>", "subject": "Re: [Xen-users] a question with gplpv"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY24VMmUW8kl74hDDn","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 07 08:28:14 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.075s]
+DEBUG:elasticsearch:> {"Sender": "jgross@suse.com", "message": "<5dbc41ae-52b6-aa58-71c2-c07e95d84714@suse.com>", "subject": "Re: [Xen-users] a question with gplpv"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY24WDmUW8kl74hDDo","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 07 09:08:55 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.065s]
+DEBUG:elasticsearch:> {"Sender": "paulinaszubarczyk@gmail.com", "message": "<57CFD908.2020409@gmail.com>", "subject": "Re: [Xen-users] HVMLoader bug - staging"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY24XQmUW8kl74hDDp","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 07 09:08:55 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.066s]
+DEBUG:elasticsearch:> {"Sender": "paulinaszubarczyk@gmail.com", "message": "<57CFD908.2020409@gmail.com>", "subject": "Re: [Xen-users] HVMLoader bug - staging"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY24YTmUW8kl74hDDq","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 07 11:14:43 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.063s]
+DEBUG:elasticsearch:> {"Sender": "curiouslfq@gmail.com", "message": "<CALS+E5DS_Op0j6nnuM1rcumX7jXz1MbSXC8O9BzwkiBUB5tVUA@mail.gmail.com>", "subject": "Re: [Xen-users] a question with gplpv"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY24ZYmUW8kl74hDDr","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 07 11:14:43 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.065s]
+DEBUG:elasticsearch:> {"Sender": "curiouslfq@gmail.com", "message": "<CALS+E5DS_Op0j6nnuM1rcumX7jXz1MbSXC8O9BzwkiBUB5tVUA@mail.gmail.com>", "subject": "Re: [Xen-users] a question with gplpv"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY24aZmUW8kl74hDDs","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 07 17:00:17 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.054s]
+DEBUG:elasticsearch:> {"Sender": "daniel.e.shub@gmail.com", "message": "<CA+-0u-bi=zTKSUMcu0ZzpU9ka95Zua=zzXLygJ8kKyh_N=nbtg@mail.gmail.com>", "subject": "[Xen-users] Compiling Xen 4.7.0 with gcc 6.1.1"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY24bcmUW8kl74hDDt","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 07 17:00:17 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.070s]
+DEBUG:elasticsearch:> {"Sender": "daniel.e.shub@gmail.com", "message": "<CA+-0u-bi=zTKSUMcu0ZzpU9ka95Zua=zzXLygJ8kKyh_N=nbtg@mail.gmail.com>", "subject": "[Xen-users] Compiling Xen 4.7.0 with gcc 6.1.1"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY24cUmUW8kl74hDDu","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Thu Sep 08 00:46:50 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.069s]
+DEBUG:elasticsearch:> {"Sender": "curiouslfq@gmail.com", "message": "<CALS+E5CqqrH8GcjqXKi=y6PwgDhY2FLnMp6XLQMSaGguw+KyKg@mail.gmail.com>", "subject": "Re: [Xen-users] Compiling Xen 4.7.0 with gcc 6.1.1"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY24ddmUW8kl74hDDv","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Thu Sep 08 00:46:50 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.071s]
+DEBUG:elasticsearch:> {"Sender": "curiouslfq@gmail.com", "message": "<CALS+E5CqqrH8GcjqXKi=y6PwgDhY2FLnMp6XLQMSaGguw+KyKg@mail.gmail.com>", "subject": "Re: [Xen-users] Compiling Xen 4.7.0 with gcc 6.1.1"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY24ekmUW8kl74hDDw","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Thu Sep 08 12:02:02 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.062s]
+DEBUG:elasticsearch:> {"Sender": "iwj@xenbits.xen.org", "message": "<E1bhy0k-0000uT-IV@xenbits.xenproject.org>", "subject": "[Xen-users] Xen Security Advisory 186 (CVE-2016-7093) - x86:\n Mishandling of instruction pointer truncation during emulation"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY24fvmUW8kl74hDDx","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Thu Sep 08 12:02:02 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.069s]
+DEBUG:elasticsearch:> {"Sender": "iwj@xenbits.xen.org", "message": "<E1bhy0g-0000t7-JQ@xenbits.xenproject.org>", "subject": "[Xen-users] Xen Security Advisory 185 (CVE-2016-7092) - x86:\n Disallow L3 recursive pagetable for 32-bit PV guests"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY24gxmUW8kl74hDDy","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Thu Sep 08 12:02:02 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.072s]
+DEBUG:elasticsearch:> {"Sender": "iwj@xenbits.xen.org", "message": "<E1bhy0k-0000uT-IV@xenbits.xenproject.org>", "subject": "[Xen-users] Xen Security Advisory 186 (CVE-2016-7093) - x86:\n Mishandling of instruction pointer truncation during emulation"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY24h6mUW8kl74hDDz","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Thu Sep 08 12:02:02 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.064s]
+DEBUG:elasticsearch:> {"Sender": "iwj@xenbits.xen.org", "message": "<E1bhy0m-0000vj-TN@xenbits.xenproject.org>", "subject": "[Xen-users] Xen Security Advisory 188 (CVE-2016-7154) - use after\n free in FIFO event channel code"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY24jEmUW8kl74hDD0","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Thu Sep 08 12:02:02 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.059s]
+DEBUG:elasticsearch:> {"Sender": "iwj@xenbits.xen.org", "message": "<E1bhy0g-0000t7-JQ@xenbits.xenproject.org>", "subject": "[Xen-users] Xen Security Advisory 185 (CVE-2016-7092) - x86:\n Disallow L3 recursive pagetable for 32-bit PV guests"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY24kHmUW8kl74hDD1","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Thu Sep 08 12:02:02 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.069s]
+DEBUG:elasticsearch:> {"Sender": "iwj@xenbits.xen.org", "message": "<E1bhy0m-0000vj-TN@xenbits.xenproject.org>", "subject": "[Xen-users] Xen Security Advisory 188 (CVE-2016-7154) - use after\n free in FIFO event channel code"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY24lFmUW8kl74hDD2","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Thu Sep 08 12:06:17 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.056s]
+DEBUG:elasticsearch:> {"Sender": "iwj@xenbits.xen.org", "message": "<E1bhy4i-0001oa-Fi@xenbits.xenproject.org>", "subject": "[Xen-users] Xen Security Advisory 187 (CVE-2016-7094) - x86 HVM:\n Overflow of sh_ctxt->seg_reg[]"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY24mQmUW8kl74hDD3","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Thu Sep 08 12:06:17 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.068s]
+DEBUG:elasticsearch:> {"Sender": "iwj@xenbits.xen.org", "message": "<E1bhy4i-0001oa-Fi@xenbits.xenproject.org>", "subject": "[Xen-users] Xen Security Advisory 187 (CVE-2016-7094) - x86 HVM:\n Overflow of sh_ctxt->seg_reg[]"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY24nMmUW8kl74hDD4","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Thu Sep 08 13:38:21 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.076s]
+DEBUG:elasticsearch:> {"Sender": "daniel.e.shub@gmail.com", "message": "<CA+-0u-YqNuQ60pZHDRVEGX8ktyDph+q7nFODCJkGbzieOW0RbA@mail.gmail.com>", "subject": "Re: [Xen-users] Compiling Xen 4.7.0 with gcc 6.1.1"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY24oSmUW8kl74hDD5","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Thu Sep 08 13:38:21 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.059s]
+DEBUG:elasticsearch:> {"Sender": "daniel.e.shub@gmail.com", "message": "<CA+-0u-YqNuQ60pZHDRVEGX8ktyDph+q7nFODCJkGbzieOW0RbA@mail.gmail.com>", "subject": "Re: [Xen-users] Compiling Xen 4.7.0 with gcc 6.1.1"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY24pgmUW8kl74hDD6","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Thu Sep 08 15:58:19 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.068s]
+DEBUG:elasticsearch:> {"Sender": "curiouslfq@gmail.com", "message": "<CALS+E5BNDNLnjoaoDNsUfMd6wJUP2sxoZ=hOqF9-LXZ-dnxzQw@mail.gmail.com>", "subject": "Re: [Xen-users] Compiling Xen 4.7.0 with gcc 6.1.1"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY24qemUW8kl74hDD7","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Thu Sep 08 15:58:19 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.076s]
+DEBUG:elasticsearch:> {"Sender": "curiouslfq@gmail.com", "message": "<CALS+E5BNDNLnjoaoDNsUfMd6wJUP2sxoZ=hOqF9-LXZ-dnxzQw@mail.gmail.com>", "subject": "Re: [Xen-users] Compiling Xen 4.7.0 with gcc 6.1.1"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY24rlmUW8kl74hDD8","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Thu Sep 08 19:44:21 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.070s]
+DEBUG:elasticsearch:> {"Sender": "brettstahlman@gmail.com", "message": "<CAOyxqKnbt6aaBNC+y_hp1_Sh8UkQe_stFqFg52GPypoNhpjFaw@mail.gmail.com>", "subject": "Re: [Xen-users] Wrong version of xen-utils after building xen from\n source causes xen to exit with error"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY24szmUW8kl74hDD9","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Thu Sep 08 19:44:21 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.069s]
+DEBUG:elasticsearch:> {"Sender": "brettstahlman@gmail.com", "message": "<CAOyxqKnbt6aaBNC+y_hp1_Sh8UkQe_stFqFg52GPypoNhpjFaw@mail.gmail.com>", "subject": "Re: [Xen-users] Wrong version of xen-utils after building xen from\n source causes xen to exit with error"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY24t7mUW8kl74hDD-","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Fri Sep 09 07:52:57 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.071s]
+DEBUG:elasticsearch:> {"Sender": "miles@atmos.eu", "message": "<02b85238-cacb-a994-2402-d0aa4fc8d7b3@atmos.eu>", "subject": "[Xen-users] Xen 4.7.0 graphics pass through problems (Win10,\n\tAMD Radeon)"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY24vDmUW8kl74hDD_","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Fri Sep 09 07:52:57 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.065s]
+DEBUG:elasticsearch:> {"Sender": "miles@atmos.eu", "message": "<02b85238-cacb-a994-2402-d0aa4fc8d7b3@atmos.eu>", "subject": "[Xen-users] Xen 4.7.0 graphics pass through problems (Win10,\n\tAMD Radeon)"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY24wMmUW8kl74hDEA","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Fri Sep 09 09:36:21 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.070s]
+DEBUG:elasticsearch:> {"Sender": "miles@atmos.eu", "message": "<3d258ed8-4cb2-e6e0-76b7-81f06c835b53@atmos.eu>", "subject": "Re: [Xen-users] Xen 4.7.0 graphics pass through problems (Win10,\n AMD Radeon)"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY24xOmUW8kl74hDEB","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Fri Sep 09 09:36:21 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.077s]
+DEBUG:elasticsearch:> {"Sender": "miles@atmos.eu", "message": "<3d258ed8-4cb2-e6e0-76b7-81f06c835b53@atmos.eu>", "subject": "Re: [Xen-users] Xen 4.7.0 graphics pass through problems (Win10,\n AMD Radeon)"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY24yWmUW8kl74hDEC","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Fri Sep 09 11:52:14 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.073s]
+DEBUG:elasticsearch:> {"Sender": "asw@th.com.br", "message": "<57D2A1EF.2040800@th.com.br>", "subject": "Re: [Xen-users] PV guests concurrent running limit"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY24zmmUW8kl74hDED","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Fri Sep 09 11:52:14 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.076s]
+DEBUG:elasticsearch:> {"Sender": "asw@th.com.br", "message": "<57D2A1EF.2040800@th.com.br>", "subject": "Re: [Xen-users] PV guests concurrent running limit"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY240zmUW8kl74hDEE","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Fri Sep 09 18:17:16 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.070s]
+DEBUG:elasticsearch:> {"Sender": "twalter@thetatts.com", "message": "<321ab637b33b477b89911ef32f7b5658@thetatts.com>", "subject": "Re: [Xen-users] linux-4.7.* under xen-4.6.* gives \"unhandled page\n fault (ec=0000)\" at boot. -- Root cause found."}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY242AmUW8kl74hDEF","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Fri Sep 09 18:17:16 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.065s]
+DEBUG:elasticsearch:> {"Sender": "twalter@thetatts.com", "message": "<321ab637b33b477b89911ef32f7b5658@thetatts.com>", "subject": "Re: [Xen-users] linux-4.7.* under xen-4.6.* gives \"unhandled page\n fault (ec=0000)\" at boot. -- Root cause found."}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY243ImUW8kl74hDEG","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Fri Sep 09 21:55:23 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.070s]
+DEBUG:elasticsearch:> {"Sender": "brettstahlman@gmail.com", "message": "<CAOyxqK=hzi3+8kVHdYdSCm85umm_=85qaufzNuJumD2UOAe5bQ@mail.gmail.com>", "subject": "[Xen-users] Questions on hvmloader,\n\tdirect kernel boot and simulated BIOS"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY244LmUW8kl74hDEH","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Fri Sep 09 21:55:23 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.054s]
+DEBUG:elasticsearch:> {"Sender": "brettstahlman@gmail.com", "message": "<CAOyxqK=hzi3+8kVHdYdSCm85umm_=85qaufzNuJumD2UOAe5bQ@mail.gmail.com>", "subject": "[Xen-users] Questions on hvmloader,\n\tdirect kernel boot and simulated BIOS"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY245SmUW8kl74hDEI","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Sat Sep 10 11:12:21 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.076s]
+DEBUG:elasticsearch:> {"Sender": "hakon@alstadheim.priv.no", "message": "<84079ac5-7ef4-b829-d6eb-b8a5b535a095@alstadheim.priv.no>", "subject": "Re: [Xen-users] linux-4.7.* under xen-4.6.* gives \"unhandled page\n fault (ec=0000)\" at boot. -- Root cause found."}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY246KmUW8kl74hDEJ","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Sat Sep 10 11:12:21 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.059s]
+DEBUG:elasticsearch:> {"Sender": "hakon@alstadheim.priv.no", "message": "<84079ac5-7ef4-b829-d6eb-b8a5b535a095@alstadheim.priv.no>", "subject": "Re: [Xen-users] linux-4.7.* under xen-4.6.* gives \"unhandled page\n fault (ec=0000)\" at boot. -- Root cause found."}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY247ZmUW8kl74hDEK","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Sat Sep 10 14:59:19 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.068s]
+DEBUG:elasticsearch:> {"Sender": "tlviewer@yahoo.com", "message": "<2032814905.2893135.1473519482410@mail.yahoo.com>", "subject": "[Xen-users] pv-grub in xen 4.7, ok with kernel 3.x,\n\tbut fails with 4.x"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY248XmUW8kl74hDEL","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Sat Sep 10 14:59:19 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.064s]
+DEBUG:elasticsearch:> {"Sender": "tlviewer@yahoo.com", "message": "<2032814905.2893135.1473519482410@mail.yahoo.com>", "subject": "[Xen-users] pv-grub in xen 4.7, ok with kernel 3.x,\n\tbut fails with 4.x"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY249fmUW8kl74hDEM","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Sat Sep 10 20:06:09 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.070s]
+DEBUG:elasticsearch:> {"Sender": "srn@prgmr.com", "message": "<42f4d1f8-9d7d-899b-bc3e-6d28df668311@prgmr.com>", "subject": "Re: [Xen-users] pv-grub in xen 4.7, ok with kernel 3.x,\n but fails with 4.x"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY24-gmUW8kl74hDEN","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Sat Sep 10 20:06:09 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.070s]
+DEBUG:elasticsearch:> {"Sender": "srn@prgmr.com", "message": "<42f4d1f8-9d7d-899b-bc3e-6d28df668311@prgmr.com>", "subject": "Re: [Xen-users] pv-grub in xen 4.7, ok with kernel 3.x,\n but fails with 4.x"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY24_pmUW8kl74hDEO","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Mon Sep 12 13:01:08 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.065s]
+DEBUG:elasticsearch:> {"Sender": "twalter@thetatts.com", "message": "<5474ca841a774407b1d20d34c44e60cd@thetatts.com>", "subject": "Re: [Xen-users] linux-4.7.* under xen-4.6.* gives \"unhandled page\n fault (ec=0000)\" at boot. -- Root cause found."}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY25AwmUW8kl74hDEP","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Mon Sep 12 13:01:08 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.088s]
+DEBUG:elasticsearch:> {"Sender": "twalter@thetatts.com", "message": "<5474ca841a774407b1d20d34c44e60cd@thetatts.com>", "subject": "Re: [Xen-users] linux-4.7.* under xen-4.6.* gives \"unhandled page\n fault (ec=0000)\" at boot. -- Root cause found."}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY25BzmUW8kl74hDEQ","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Mon Sep 12 19:01:41 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.065s]
+DEBUG:elasticsearch:> {"Sender": "miles@atmos.eu", "message": "<241e152e-2404-faae-fbe0-f244ca940f1d@atmos.eu>", "subject": "Re: [Xen-users] Xen 4.7.0 graphics pass through problems (Win10,\n AMD Radeon)"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY25DNmUW8kl74hDER","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Mon Sep 12 19:01:41 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.060s]
+DEBUG:elasticsearch:> {"Sender": "miles@atmos.eu", "message": "<241e152e-2404-faae-fbe0-f244ca940f1d@atmos.eu>", "subject": "Re: [Xen-users] Xen 4.7.0 graphics pass through problems (Win10,\n AMD Radeon)"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY25EUmUW8kl74hDES","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Mon Sep 12 20:45:55 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.075s]
+DEBUG:elasticsearch:> {"Sender": "daniel.e.shub@gmail.com", "message": "<CA+-0u-YRdUAj7GQBHJjSSt517Zs_k+yEDDiDFPmu3w8+3mVHOQ@mail.gmail.com>", "subject": "Re: [Xen-users] Xen 4.7.0 graphics pass through problems (Win10,\n\tAMD Radeon)"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY25FSmUW8kl74hDET","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Mon Sep 12 20:45:55 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.060s]
+DEBUG:elasticsearch:> {"Sender": "daniel.e.shub@gmail.com", "message": "<CA+-0u-YRdUAj7GQBHJjSSt517Zs_k+yEDDiDFPmu3w8+3mVHOQ@mail.gmail.com>", "subject": "Re: [Xen-users] Xen 4.7.0 graphics pass through problems (Win10,\n\tAMD Radeon)"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY25GfmUW8kl74hDEU","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Tue Sep 13 16:33:59 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.071s]
+DEBUG:elasticsearch:> {"Sender": "manurcr@gmail.com", "message": "<CAPccoBT-sdEqouM8G8XVeoUL=sNAHRfmHQU+-Ybzq6koyLBs=g@mail.gmail.com>", "subject": "[Xen-users] Cannot install xen 4.7"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY25HemUW8kl74hDEV","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Tue Sep 13 16:33:59 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.053s]
+DEBUG:elasticsearch:> {"Sender": "manurcr@gmail.com", "message": "<CAPccoBT-sdEqouM8G8XVeoUL=sNAHRfmHQU+-Ybzq6koyLBs=g@mail.gmail.com>", "subject": "[Xen-users] Cannot install xen 4.7"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY25IrmUW8kl74hDEW","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Tue Sep 13 18:54:36 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.053s]
+DEBUG:elasticsearch:> {"Sender": "hakon@alstadheim.priv.no", "message": "<7573a1a4-5124-42e4-d6ab-06e707928de6@alstadheim.priv.no>", "subject": "Re: [Xen-users] linux-4.7.* under xen-4.6.* gives \"unhandled page\n fault (ec=0000)\" at boot. -- Root cause found."}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY25JjmUW8kl74hDEX","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Tue Sep 13 18:54:36 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.081s]
+DEBUG:elasticsearch:> {"Sender": "hakon@alstadheim.priv.no", "message": "<7573a1a4-5124-42e4-d6ab-06e707928de6@alstadheim.priv.no>", "subject": "Re: [Xen-users] linux-4.7.* under xen-4.6.* gives \"unhandled page\n fault (ec=0000)\" at boot. -- Root cause found."}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY25KamUW8kl74hDEY","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Tue Sep 13 19:01:36 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.060s]
+DEBUG:elasticsearch:> {"Sender": "twalter@thetatts.com", "message": "<5d1e6a1823f248cf89a9f260bb607cfc@thetatts.com>", "subject": "Re: [Xen-users] linux-4.7.* under xen-4.6.* gives \"unhandled page\n fault (ec=0000)\" at boot. -- Root cause found."}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY25LsmUW8kl74hDEZ","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Tue Sep 13 19:01:36 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.070s]
+DEBUG:elasticsearch:> {"Sender": "twalter@thetatts.com", "message": "<5d1e6a1823f248cf89a9f260bb607cfc@thetatts.com>", "subject": "Re: [Xen-users] linux-4.7.* under xen-4.6.* gives \"unhandled page\n fault (ec=0000)\" at boot. -- Root cause found."}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY25MqmUW8kl74hDEa","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 10:34:03 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.063s]
+DEBUG:elasticsearch:> {"Sender": "prvs=05898261f=George.Dunlap@citrix.com", "message": "<CAFLBxZb4M4-eZS7GUoWS1xfd_p5QtuQXYmKy==mFHwn_TBPNxg@mail.gmail.com>", "subject": "Re: [Xen-users] Wrong version of xen-utils after building xen from\n source causes xen to exit with error"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY25N1mUW8kl74hDEb","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 10:34:03 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.077s]
+DEBUG:elasticsearch:> {"Sender": "prvs=05898261f=George.Dunlap@citrix.com", "message": "<CAFLBxZb4M4-eZS7GUoWS1xfd_p5QtuQXYmKy==mFHwn_TBPNxg@mail.gmail.com>", "subject": "Re: [Xen-users] Wrong version of xen-utils after building xen from\n source causes xen to exit with error"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY25O0mUW8kl74hDEc","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 11:04:40 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.064s]
+DEBUG:elasticsearch:> {"Sender": "dunlapg@gmail.com", "message": "<CAFLBxZYVQgWYqHWnBzrO6X2YWE32rvWWmAh25G_PhZHuecOP8g@mail.gmail.com>", "subject": "Re: [Xen-users] Questions on hvmloader,\n direct kernel boot and simulated BIOS"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY25QDmUW8kl74hDEd","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 11:04:40 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.071s]
+DEBUG:elasticsearch:> {"Sender": "dunlapg@gmail.com", "message": "<CAFLBxZYVQgWYqHWnBzrO6X2YWE32rvWWmAh25G_PhZHuecOP8g@mail.gmail.com>", "subject": "Re: [Xen-users] Questions on hvmloader,\n direct kernel boot and simulated BIOS"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY25RFmUW8kl74hDEe","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 11:13:48 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.065s]
+DEBUG:elasticsearch:> {"Sender": "prvs=05898261f=George.Dunlap@citrix.com", "message": "<CAFLBxZYjSZFUMrbk6qQvvH3nkJP6amqM-URhh-Xs10M0sNM36g@mail.gmail.com>", "subject": "Re: [Xen-users] pv-grub in xen 4.7, ok with kernel 3.x,\n but fails with 4.x"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY25SOmUW8kl74hDEf","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 11:13:48 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.059s]
+DEBUG:elasticsearch:> {"Sender": "prvs=05898261f=George.Dunlap@citrix.com", "message": "<CAFLBxZYjSZFUMrbk6qQvvH3nkJP6amqM-URhh-Xs10M0sNM36g@mail.gmail.com>", "subject": "Re: [Xen-users] pv-grub in xen 4.7, ok with kernel 3.x,\n but fails with 4.x"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY25TQmUW8kl74hDEg","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 11:19:48 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.071s]
+DEBUG:elasticsearch:> {"Sender": "prvs=0586b35b8=wei.liu2@citrix.com", "message": "<20160914111910.GZ15958@citrix.com>", "subject": "Re: [Xen-users] pv-grub in xen 4.7, ok with kernel 3.x,\n but fails with 4.x"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY25UNmUW8kl74hDEh","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 11:19:48 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.058s]
+DEBUG:elasticsearch:> {"Sender": "prvs=0586b35b8=wei.liu2@citrix.com", "message": "<20160914111910.GZ15958@citrix.com>", "subject": "Re: [Xen-users] pv-grub in xen 4.7, ok with kernel 3.x,\n but fails with 4.x"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY25VWmUW8kl74hDEi","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 11:35:07 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.071s]
+DEBUG:elasticsearch:> {"Sender": "prvs=05898261f=George.Dunlap@citrix.com", "message": "<CAFLBxZYpPuwXOUhRjaaRJPRX=7iNtHC0H8QusS-H4JeKeZJD0A@mail.gmail.com>", "subject": "Re: [Xen-users] Xen 4.7.0 graphics pass through problems (Win10,\n\tAMD Radeon)"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY25WSmUW8kl74hDEj","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 11:35:07 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.056s]
+DEBUG:elasticsearch:> {"Sender": "prvs=05898261f=George.Dunlap@citrix.com", "message": "<CAFLBxZYpPuwXOUhRjaaRJPRX=7iNtHC0H8QusS-H4JeKeZJD0A@mail.gmail.com>", "subject": "Re: [Xen-users] Xen 4.7.0 graphics pass through problems (Win10,\n\tAMD Radeon)"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY25XdmUW8kl74hDEk","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 11:36:30 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.054s]
+DEBUG:elasticsearch:> {"Sender": "dunlapg@gmail.com", "message": "<CAFLBxZZ20Y24NP+bxE2CNd1ZUZ1hGm+O2AObH0sm7b+woRVoSw@mail.gmail.com>", "subject": "Re: [Xen-users] Xen 4.7.0 graphics pass through problems (Win10,\n\tAMD Radeon)"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY25YXmUW8kl74hDEl","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 11:36:30 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.054s]
+DEBUG:elasticsearch:> {"Sender": "dunlapg@gmail.com", "message": "<CAFLBxZZ20Y24NP+bxE2CNd1ZUZ1hGm+O2AObH0sm7b+woRVoSw@mail.gmail.com>", "subject": "Re: [Xen-users] Xen 4.7.0 graphics pass through problems (Win10,\n\tAMD Radeon)"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY25ZPmUW8kl74hDEm","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 11:51:29 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.071s]
+DEBUG:elasticsearch:> {"Sender": "miles@atmos.eu", "message": "<0a543b0d-ae2b-48b9-d130-4f39d40a1756@atmos.eu>", "subject": "Re: [Xen-users] Xen 4.7.0 graphics pass through problems (Win10,\n AMD Radeon)"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY25aHmUW8kl74hDEn","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 11:51:29 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.058s]
+DEBUG:elasticsearch:> {"Sender": "miles@atmos.eu", "message": "<0a543b0d-ae2b-48b9-d130-4f39d40a1756@atmos.eu>", "subject": "Re: [Xen-users] Xen 4.7.0 graphics pass through problems (Win10,\n AMD Radeon)"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY25bPmUW8kl74hDEo","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 12:51:12 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.054s]
+DEBUG:elasticsearch:> {"Sender": "JBeulich@suse.com", "message": "<57D9639D020000780010ECD4@prv-mh.provo.novell.com>", "subject": "Re: [Xen-users] Xen 4.7.0 graphics pass through problems (Win10,\n AMD Radeon)"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY25cMmUW8kl74hDEp","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 12:51:12 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.060s]
+DEBUG:elasticsearch:> {"Sender": "JBeulich@suse.com", "message": "<57D9639D020000780010ECD4@prv-mh.provo.novell.com>", "subject": "Re: [Xen-users] Xen 4.7.0 graphics pass through problems (Win10,\n AMD Radeon)"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY25dDmUW8kl74hDEq","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 13:16:07 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.059s]
+DEBUG:elasticsearch:> {"Sender": "prvs=05898261f=George.Dunlap@citrix.com", "message": "<CAFLBxZaSvyoY-Eb4qEf1C6=DBUdp1z2x1EBfaCpTsdjQJToYzg@mail.gmail.com>", "subject": "Re: [Xen-users] Cannot install xen 4.7"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY25eBmUW8kl74hDEr","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 13:16:07 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.060s]
+DEBUG:elasticsearch:> {"Sender": "prvs=05898261f=George.Dunlap@citrix.com", "message": "<CAFLBxZaSvyoY-Eb4qEf1C6=DBUdp1z2x1EBfaCpTsdjQJToYzg@mail.gmail.com>", "subject": "Re: [Xen-users] Cannot install xen 4.7"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY25e-mUW8kl74hDEs","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 13:30:28 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.059s]
+DEBUG:elasticsearch:> {"Sender": "prvs=05898261f=George.Dunlap@citrix.com", "message": "<a83a3077-1b4f-ae56-47eb-752c81419d7d@citrix.com>", "subject": "Re: [Xen-users] Xen 4.7.0 graphics pass through problems (Win10,\n AMD Radeon)"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY25f7mUW8kl74hDEt","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 13:30:28 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.059s]
+DEBUG:elasticsearch:> {"Sender": "prvs=05898261f=George.Dunlap@citrix.com", "message": "<a83a3077-1b4f-ae56-47eb-752c81419d7d@citrix.com>", "subject": "Re: [Xen-users] Xen 4.7.0 graphics pass through problems (Win10,\n AMD Radeon)"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY25g5mUW8kl74hDEu","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 13:33:02 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.069s]
+DEBUG:elasticsearch:> {"Sender": "it@niemail.de", "message": "<57D95183.90409@niemail.de>", "subject": "[Xen-users] xm vs. xl"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY25h2mUW8kl74hDEv","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 13:33:02 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.060s]
+DEBUG:elasticsearch:> {"Sender": "it@niemail.de", "message": "<57D95183.90409@niemail.de>", "subject": "[Xen-users] xm vs. xl"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY25i9mUW8kl74hDEw","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 13:51:06 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.071s]
+DEBUG:elasticsearch:> {"Sender": "prvs=05898261f=George.Dunlap@citrix.com", "message": "<CAFLBxZYr+OZQxFZmt-PPpb32NwP9Gj3TE-GWSozxqL1Fw5TMnA@mail.gmail.com>", "subject": "Re: [Xen-users] xm vs. xl"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY25j7mUW8kl74hDEx","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 13:51:06 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.075s]
+DEBUG:elasticsearch:> {"Sender": "prvs=05898261f=George.Dunlap@citrix.com", "message": "<CAFLBxZYr+OZQxFZmt-PPpb32NwP9Gj3TE-GWSozxqL1Fw5TMnA@mail.gmail.com>", "subject": "Re: [Xen-users] xm vs. xl"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY25lDmUW8kl74hDEy","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 14:05:23 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.065s]
+DEBUG:elasticsearch:> {"Sender": "miles@atmos.eu", "message": "<014bee96-61a0-4c45-c24c-f306712136f0@atmos.eu>", "subject": "Re: [Xen-users] Xen 4.7.0 graphics pass through problems (Win10,\n AMD Radeon)"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY25mQmUW8kl74hDEz","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 14:05:23 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.065s]
+DEBUG:elasticsearch:> {"Sender": "miles@atmos.eu", "message": "<014bee96-61a0-4c45-c24c-f306712136f0@atmos.eu>", "subject": "Re: [Xen-users] Xen 4.7.0 graphics pass through problems (Win10,\n AMD Radeon)"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY25nTmUW8kl74hDE0","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 14:17:19 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.060s]
+DEBUG:elasticsearch:> {"Sender": "miles@atmos.eu", "message": "<77cf8419-253d-57f7-94b5-0dcf09859837@atmos.eu>", "subject": "Re: [Xen-users] Xen 4.7.0 graphics pass through problems (Win10,\n AMD Radeon)"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY25oWmUW8kl74hDE1","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 14:17:19 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.058s]
+DEBUG:elasticsearch:> {"Sender": "miles@atmos.eu", "message": "<77cf8419-253d-57f7-94b5-0dcf09859837@atmos.eu>", "subject": "Re: [Xen-users] Xen 4.7.0 graphics pass through problems (Win10,\n AMD Radeon)"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY25pUmUW8kl74hDE2","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 14:40:33 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.060s]
+DEBUG:elasticsearch:> {"Sender": "miles@atmos.eu", "message": "<f49c037e-1ec3-6bb7-b2e0-dc9dc521fd0a@atmos.eu>", "subject": "Re: [Xen-users] Xen 4.7.0 graphics pass through problems (Win10,\n AMD Radeon)"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY25qQmUW8kl74hDE3","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 14:40:33 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.065s]
+DEBUG:elasticsearch:> {"Sender": "brettstahlman@gmail.com", "message": "<CAOyxqK=p4GjLjfjzQKjLR7AeR5tBaEhNCwvTnLhrzjguvT-RNQ@mail.gmail.com>", "subject": "Re: [Xen-users] Wrong version of xen-utils after building xen from\n source causes xen to exit with error"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY25rOmUW8kl74hDE4","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 14:40:33 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.065s]
+DEBUG:elasticsearch:> {"Sender": "brettstahlman@gmail.com", "message": "<CAOyxqK=p4GjLjfjzQKjLR7AeR5tBaEhNCwvTnLhrzjguvT-RNQ@mail.gmail.com>", "subject": "Re: [Xen-users] Wrong version of xen-utils after building xen from\n source causes xen to exit with error"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY25sQmUW8kl74hDE5","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 14:40:33 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.053s]
+DEBUG:elasticsearch:> {"Sender": "miles@atmos.eu", "message": "<f49c037e-1ec3-6bb7-b2e0-dc9dc521fd0a@atmos.eu>", "subject": "Re: [Xen-users] Xen 4.7.0 graphics pass through problems (Win10,\n AMD Radeon)"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY25tTmUW8kl74hDE6","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 14:50:12 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.054s]
+DEBUG:elasticsearch:> {"Sender": "JBeulich@suse.com", "message": "<57D97FB3020000780010EE16@prv-mh.provo.novell.com>", "subject": "Re: [Xen-users] Xen 4.7.0 graphics pass through problems (Win10,\n AMD Radeon)"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY25uLmUW8kl74hDE7","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 14:50:12 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.065s]
+DEBUG:elasticsearch:> {"Sender": "JBeulich@suse.com", "message": "<57D97FB3020000780010EE16@prv-mh.provo.novell.com>", "subject": "Re: [Xen-users] Xen 4.7.0 graphics pass through problems (Win10,\n AMD Radeon)"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY25vCmUW8kl74hDE8","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 15:20:19 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.059s]
+DEBUG:elasticsearch:> {"Sender": "prvs=05898261f=George.Dunlap@citrix.com", "message": "<967c7351-32c8-a767-039d-ea6b5b61c4dd@citrix.com>", "subject": "Re: [Xen-users] xm vs. xl"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY25wFmUW8kl74hDE9","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 15:20:19 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.065s]
+DEBUG:elasticsearch:> {"Sender": "prvs=05898261f=George.Dunlap@citrix.com", "message": "<967c7351-32c8-a767-039d-ea6b5b61c4dd@citrix.com>", "subject": "Re: [Xen-users] xm vs. xl"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY25xBmUW8kl74hDE-","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 15:30:00 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.053s]
+DEBUG:elasticsearch:> {"Sender": "miles@atmos.eu", "message": "<1d981a89-14dc-127d-8114-64b1beda575e@atmos.eu>", "subject": "Re: [Xen-users] Xen 4.7.0 graphics pass through problems (Win10,\n AMD Radeon)"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY25yEmUW8kl74hDE_","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 15:30:00 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.077s]
+DEBUG:elasticsearch:> {"Sender": "miles@atmos.eu", "message": "<1d981a89-14dc-127d-8114-64b1beda575e@atmos.eu>", "subject": "Re: [Xen-users] Xen 4.7.0 graphics pass through problems (Win10,\n AMD Radeon)"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY25y7mUW8kl74hDFA","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 15:42:41 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.070s]
+DEBUG:elasticsearch:> {"Sender": "brettstahlman@gmail.com", "message": "<CAOyxqKmpLuTbgLDpgA8QReUm7_4j5Oih5ceTSbANX1Ya367OTg@mail.gmail.com>", "subject": "Re: [Xen-users] Questions on hvmloader,\n direct kernel boot and simulated BIOS"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY250KmUW8kl74hDFB","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 15:42:41 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.070s]
+DEBUG:elasticsearch:> {"Sender": "brettstahlman@gmail.com", "message": "<CAOyxqKmpLuTbgLDpgA8QReUm7_4j5Oih5ceTSbANX1Ya367OTg@mail.gmail.com>", "subject": "Re: [Xen-users] Questions on hvmloader,\n direct kernel boot and simulated BIOS"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY251SmUW8kl74hDFC","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 15:48:06 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.069s]
+DEBUG:elasticsearch:> {"Sender": "manurcr@gmail.com", "message": "<CAPccoBSb4U9e6D8JJqiXEYzFGkUjhLjSUbrYGEm=fwdcq4SzeQ@mail.gmail.com>", "subject": "Re: [Xen-users] Cannot install xen 4.7"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY252cmUW8kl74hDFD","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 15:48:06 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.065s]
+DEBUG:elasticsearch:> {"Sender": "manurcr@gmail.com", "message": "<CAPccoBSb4U9e6D8JJqiXEYzFGkUjhLjSUbrYGEm=fwdcq4SzeQ@mail.gmail.com>", "subject": "Re: [Xen-users] Cannot install xen 4.7"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY253jmUW8kl74hDFE","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 16:04:39 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.070s]
+DEBUG:elasticsearch:> {"Sender": "prvs=05821cc2b=Andrew.Cooper3@citrix.com", "message": "<dd4f71ce-383e-aade-3244-5099ef4e019b@citrix.com>", "subject": "Re: [Xen-users] Xen 4.7.0 graphics pass through problems (Win10,\n AMD Radeon)"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY254mmUW8kl74hDFF","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 16:04:39 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.065s]
+DEBUG:elasticsearch:> {"Sender": "prvs=05821cc2b=Andrew.Cooper3@citrix.com", "message": "<dd4f71ce-383e-aade-3244-5099ef4e019b@citrix.com>", "subject": "Re: [Xen-users] Xen 4.7.0 graphics pass through problems (Win10,\n AMD Radeon)"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY255umUW8kl74hDFG","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 17:02:43 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.065s]
+DEBUG:elasticsearch:> {"Sender": "ahferroin7@gmail.com", "message": "<2f8653e7-22c3-5caf-85a2-d061625808ea@gmail.com>", "subject": "Re: [Xen-users] Questions on hvmloader,\n direct kernel boot and simulated BIOS"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY256xmUW8kl74hDFH","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 17:02:43 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.073s]
+DEBUG:elasticsearch:> {"Sender": "ahferroin7@gmail.com", "message": "<2f8653e7-22c3-5caf-85a2-d061625808ea@gmail.com>", "subject": "Re: [Xen-users] Questions on hvmloader,\n direct kernel boot and simulated BIOS"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY2571mUW8kl74hDFI","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 18:30:11 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.054s]
+DEBUG:elasticsearch:> {"Sender": "brettstahlman@gmail.com", "message": "<CAOyxqKmr4XEgTcVNw4XWuCuehv9ODjUZvT+892Ucre3JqaOMRg@mail.gmail.com>", "subject": "Re: [Xen-users] Questions on hvmloader,\n direct kernel boot and simulated BIOS"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY259AmUW8kl74hDFJ","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 14 18:30:11 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.076s]
+DEBUG:elasticsearch:> {"Sender": "brettstahlman@gmail.com", "message": "<CAOyxqKmr4XEgTcVNw4XWuCuehv9ODjUZvT+892Ucre3JqaOMRg@mail.gmail.com>", "subject": "Re: [Xen-users] Questions on hvmloader,\n direct kernel boot and simulated BIOS"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY2594mUW8kl74hDFK","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Thu Sep 15 09:56:24 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.069s]
+DEBUG:elasticsearch:> {"Sender": "manurcr@gmail.com", "message": "<CAPccoBRg=EMtKnGTXDgFCCxSDxU_E_6LNubj5mCse+DGfpg8bA@mail.gmail.com>", "subject": "Re: [Xen-users] Cannot install xen 4.7"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY25_HmUW8kl74hDFL","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Thu Sep 15 09:56:24 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.068s]
+DEBUG:elasticsearch:> {"Sender": "manurcr@gmail.com", "message": "<CAPccoBRg=EMtKnGTXDgFCCxSDxU_E_6LNubj5mCse+DGfpg8bA@mail.gmail.com>", "subject": "Re: [Xen-users] Cannot install xen 4.7"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY26AQmUW8kl74hDFM","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Thu Sep 15 10:54:40 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.060s]
+DEBUG:elasticsearch:> {"Sender": "prvs=059e6d26e=George.Dunlap@citrix.com", "message": "<73de0cc6-0bd6-1b4e-bbc4-462926e54d42@citrix.com>", "subject": "Re: [Xen-users] Wrong version of xen-utils after building xen from\n source causes xen to exit with error"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY26BWmUW8kl74hDFN","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Thu Sep 15 10:54:40 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.065s]
+DEBUG:elasticsearch:> {"Sender": "prvs=059e6d26e=George.Dunlap@citrix.com", "message": "<73de0cc6-0bd6-1b4e-bbc4-462926e54d42@citrix.com>", "subject": "Re: [Xen-users] Wrong version of xen-utils after building xen from\n source causes xen to exit with error"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY26CUmUW8kl74hDFO","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Thu Sep 15 14:00:58 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.069s]
+DEBUG:elasticsearch:> {"Sender": "brettstahlman@gmail.com", "message": "<CAOyxqKmnOGhNPGTTEQdgPYTNi3Njsbrkib=i+KSZBQnrG=Z4pg@mail.gmail.com>", "subject": "Re: [Xen-users] Wrong version of xen-utils after building xen from\n source causes xen to exit with error"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY26DWmUW8kl74hDFP","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Thu Sep 15 14:00:58 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.098s]
+DEBUG:elasticsearch:> {"Sender": "brettstahlman@gmail.com", "message": "<CAOyxqKmnOGhNPGTTEQdgPYTNi3Njsbrkib=i+KSZBQnrG=Z4pg@mail.gmail.com>", "subject": "Re: [Xen-users] Wrong version of xen-utils after building xen from\n source causes xen to exit with error"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY26EemUW8kl74hDFQ","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Thu Sep 15 14:07:43 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.076s]
+DEBUG:elasticsearch:> {"Sender": "prvs=059e6d26e=George.Dunlap@citrix.com", "message": "<b57cdc5b-ecc9-6d35-973a-734f68a033c0@citrix.com>", "subject": "Re: [Xen-users] Wrong version of xen-utils after building xen from\n source causes xen to exit with error"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY26GCmUW8kl74hDFR","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Thu Sep 15 14:07:43 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.077s]
+DEBUG:elasticsearch:> {"Sender": "prvs=059e6d26e=George.Dunlap@citrix.com", "message": "<b57cdc5b-ecc9-6d35-973a-734f68a033c0@citrix.com>", "subject": "Re: [Xen-users] Wrong version of xen-utils after building xen from\n source causes xen to exit with error"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY26HQmUW8kl74hDFS","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Thu Sep 15 14:24:15 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.069s]
+DEBUG:elasticsearch:> {"Sender": "brettstahlman@gmail.com", "message": "<CAOyxqKk0Rhf-HrUcwGEKC3EgFq6WWK1ykHyCQ45Y+iUA7y=RgA@mail.gmail.com>", "subject": "Re: [Xen-users] Wrong version of xen-utils after building xen from\n source causes xen to exit with error"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY26IgmUW8kl74hDFT","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Thu Sep 15 14:24:15 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.065s]
+DEBUG:elasticsearch:> {"Sender": "brettstahlman@gmail.com", "message": "<CAOyxqKk0Rhf-HrUcwGEKC3EgFq6WWK1ykHyCQ45Y+iUA7y=RgA@mail.gmail.com>", "subject": "Re: [Xen-users] Wrong version of xen-utils after building xen from\n source causes xen to exit with error"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY26JnmUW8kl74hDFU","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Fri Sep 16 13:00:45 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.064s]
+DEBUG:elasticsearch:> {"Sender": "lars.kurth.xen@gmail.com", "message": "<A77DFFD4-DC80-491A-BBCD-3B867A0D567A@gmail.com>", "subject": "[Xen-users] First set of Xen Project Developer Summit Videos are\n\tavailable"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY26KpmUW8kl74hDFV","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Fri Sep 16 13:00:45 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.070s]
+DEBUG:elasticsearch:> {"Sender": "lars.kurth.xen@gmail.com", "message": "<A77DFFD4-DC80-491A-BBCD-3B867A0D567A@gmail.com>", "subject": "[Xen-users] First set of Xen Project Developer Summit Videos are\n\tavailable"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY26LrmUW8kl74hDFW","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Fri Sep 16 21:35:00 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.058s]
+DEBUG:elasticsearch:> {"Sender": "jsun@junsun.net", "message": "<CAP5Nno4pGBMd4kAzXH-rO3dL6K45z5-sBC30Q-CNhoo3vZkpUA@mail.gmail.com>", "subject": "[Xen-users] prebuilt static ARM64 xen tools, anyone?"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY26M1mUW8kl74hDFX","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Fri Sep 16 21:35:00 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.058s]
+DEBUG:elasticsearch:> {"Sender": "jsun@junsun.net", "message": "<CAP5Nno4pGBMd4kAzXH-rO3dL6K45z5-sBC30Q-CNhoo3vZkpUA@mail.gmail.com>", "subject": "[Xen-users] prebuilt static ARM64 xen tools, anyone?"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY26NxmUW8kl74hDFY","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Fri Sep 16 22:00:11 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.065s]
+DEBUG:elasticsearch:> {"Sender": "carl.schneider+mailinglists@rub.de", "message": "<b692e82e-b095-6b25-9bbc-5cf9a9d76531@rub.de>", "subject": "[Xen-users] Hardware compability (C236 + E3-1275v5)"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY26OtmUW8kl74hDFZ","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Fri Sep 16 22:00:11 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.065s]
+DEBUG:elasticsearch:> {"Sender": "carl.schneider+mailinglists@rub.de", "message": "<b692e82e-b095-6b25-9bbc-5cf9a9d76531@rub.de>", "subject": "[Xen-users] Hardware compability (C236 + E3-1275v5)"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY26PwmUW8kl74hDFa","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Mon Sep 19 08:37:27 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.065s]
+DEBUG:elasticsearch:> {"Sender": "dunlapg@gmail.com", "message": "<CAFLBxZbV1kNjHUF89Os_gq+pPaoGbqNcn-Ybi2L344P6Ur=VKg@mail.gmail.com>", "subject": "Re: [Xen-users] Questions on hvmloader,\n direct kernel boot and simulated BIOS"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY26QzmUW8kl74hDFb","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Mon Sep 19 08:37:27 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.065s]
+DEBUG:elasticsearch:> {"Sender": "dunlapg@gmail.com", "message": "<CAFLBxZbV1kNjHUF89Os_gq+pPaoGbqNcn-Ybi2L344P6Ur=VKg@mail.gmail.com>", "subject": "Re: [Xen-users] Questions on hvmloader,\n direct kernel boot and simulated BIOS"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY26R1mUW8kl74hDFc","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Mon Sep 19 14:29:29 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.075s]
+DEBUG:elasticsearch:> {"Sender": "brettstahlman@gmail.com", "message": "<CAOyxqKkORvyeSheR4y5BBXbEWfoyouxcReCfk9UKbh0bW7Vt1Q@mail.gmail.com>", "subject": "Re: [Xen-users] Questions on hvmloader,\n direct kernel boot and simulated BIOS"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY26S5mUW8kl74hDFd","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Mon Sep 19 14:29:29 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.065s]
+DEBUG:elasticsearch:> {"Sender": "brettstahlman@gmail.com", "message": "<CAOyxqKkORvyeSheR4y5BBXbEWfoyouxcReCfk9UKbh0bW7Vt1Q@mail.gmail.com>", "subject": "Re: [Xen-users] Questions on hvmloader,\n direct kernel boot and simulated BIOS"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY26UGmUW8kl74hDFe","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Mon Sep 19 18:06:55 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.070s]
+DEBUG:elasticsearch:> {"Sender": "manurcr@gmail.com", "message": "<CAPccoBQ4P2DSKuZWUrJ6a-XbPfBJRCRB6acDEnDek9VvvDidEQ@mail.gmail.com>", "subject": "[Xen-users] Cannot make VGA Passthrough with Xen 4.4.1"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY26VKmUW8kl74hDFf","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Mon Sep 19 18:06:55 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.070s]
+DEBUG:elasticsearch:> {"Sender": "manurcr@gmail.com", "message": "<CAPccoBQ4P2DSKuZWUrJ6a-XbPfBJRCRB6acDEnDek9VvvDidEQ@mail.gmail.com>", "subject": "[Xen-users] Cannot make VGA Passthrough with Xen 4.4.1"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY26WSmUW8kl74hDFg","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Mon Sep 19 18:44:48 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.070s]
+DEBUG:elasticsearch:> {"Sender": "miles@atmos.eu", "message": "<6e0d37d2-cf71-4541-1c24-d8b21508f428@atmos.eu>", "subject": "Re: [Xen-users] Cannot make VGA Passthrough with Xen 4.4.1"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY26XbmUW8kl74hDFh","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Mon Sep 19 18:44:48 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.059s]
+DEBUG:elasticsearch:> {"Sender": "miles@atmos.eu", "message": "<6e0d37d2-cf71-4541-1c24-d8b21508f428@atmos.eu>", "subject": "Re: [Xen-users] Cannot make VGA Passthrough with Xen 4.4.1"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY26YomUW8kl74hDFi","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Tue Sep 20 00:38:24 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.059s]
+DEBUG:elasticsearch:> {"Sender": "carl.schneider+mailinglists@rub.de", "message": "<647c90ab-135f-1891-031f-4372a5ea445b@rub.de>", "subject": "Re: [Xen-users] Cannot make VGA Passthrough with Xen 4.4.1"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY26ZlmUW8kl74hDFj","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Tue Sep 20 00:38:24 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.069s]
+DEBUG:elasticsearch:> {"Sender": "carl.schneider+mailinglists@rub.de", "message": "<647c90ab-135f-1891-031f-4372a5ea445b@rub.de>", "subject": "Re: [Xen-users] Cannot make VGA Passthrough with Xen 4.4.1"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY26ajmUW8kl74hDFk","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Tue Sep 20 06:38:44 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.058s]
+DEBUG:elasticsearch:> {"Sender": "manurcr@gmail.com", "message": "<CAPccoBQBWcPe95ULj6VnaVdhGSnso3Ga+2o0yWAJ7+xXmYZYrA@mail.gmail.com>", "subject": "Re: [Xen-users] Cannot make VGA Passthrough with Xen 4.4.1"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY26bsmUW8kl74hDFl","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Tue Sep 20 06:38:44 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.069s]
+DEBUG:elasticsearch:> {"Sender": "manurcr@gmail.com", "message": "<CAPccoBQBWcPe95ULj6VnaVdhGSnso3Ga+2o0yWAJ7+xXmYZYrA@mail.gmail.com>", "subject": "Re: [Xen-users] Cannot make VGA Passthrough with Xen 4.4.1"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY26cpmUW8kl74hDFm","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 21 04:06:09 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.067s]
+DEBUG:elasticsearch:> {"Sender": "tagcoop@gmail.com", "message": "<57e1d5a7.4c9b370a.ca60c.afc7@mx.google.com>", "subject": "[Xen-users] Internet access for host when hosting router/firewall\n\tguest"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY26dymUW8kl74hDFn","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 21 04:06:09 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.060s]
+DEBUG:elasticsearch:> {"Sender": "marcotte@panix.com", "message": "<20160920193441.AA794242C2@panix5.panix.com>", "subject": "[Xen-users] dom0 panic after recent security patches"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY26e3mUW8kl74hDFo","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 21 04:06:09 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.064s]
+DEBUG:elasticsearch:> {"Sender": "tagcoop@gmail.com", "message": "<57e1d5a7.4c9b370a.ca60c.afc7@mx.google.com>", "subject": "[Xen-users] Internet access for host when hosting router/firewall\n\tguest"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY26f1mUW8kl74hDFp","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 21 04:06:09 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.076s]
+DEBUG:elasticsearch:> {"Sender": "marcotte@panix.com", "message": "<20160920193441.AA794242C2@panix5.panix.com>", "subject": "[Xen-users] dom0 panic after recent security patches"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY26g3mUW8kl74hDFq","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 21 07:10:57 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.070s]
+DEBUG:elasticsearch:> {"Sender": "linux@thehobsons.co.uk", "message": "<1E0110BE-81FB-4E8D-870F-3AF5AECA2327@thehobsons.co.uk>", "subject": "Re: [Xen-users] Internet access for host when hosting\n\trouter/firewall guest"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY26iFmUW8kl74hDFr","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 21 07:10:57 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.060s]
+DEBUG:elasticsearch:> {"Sender": "linux@thehobsons.co.uk", "message": "<1E0110BE-81FB-4E8D-870F-3AF5AECA2327@thehobsons.co.uk>", "subject": "Re: [Xen-users] Internet access for host when hosting\n\trouter/firewall guest"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY26jNmUW8kl74hDFs","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 21 07:32:59 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.063s]
+DEBUG:elasticsearch:> {"Sender": "hydrapolic@gmail.com", "message": "<CAG6MAzSpfn9VhpgOD0RGSQVBav8Ym7Nok3pJq8HG40X=fO+HJQ@mail.gmail.com>", "subject": "Re: [Xen-users] Database crashes when using Xen PVH"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY26kMmUW8kl74hDFt","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 21 07:32:59 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.075s]
+DEBUG:elasticsearch:> {"Sender": "hydrapolic@gmail.com", "message": "<CAG6MAzSpfn9VhpgOD0RGSQVBav8Ym7Nok3pJq8HG40X=fO+HJQ@mail.gmail.com>", "subject": "Re: [Xen-users] Database crashes when using Xen PVH"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY26lOmUW8kl74hDFu","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 21 07:41:34 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.071s]
+DEBUG:elasticsearch:> {"Sender": "it@niemail.de", "message": "<57E2399F.2020700@niemail.de>", "subject": "Re: [Xen-users] xm vs. xl"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY26mbmUW8kl74hDFv","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 21 07:41:34 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.064s]
+DEBUG:elasticsearch:> {"Sender": "it@niemail.de", "message": "<57E2399F.2020700@niemail.de>", "subject": "Re: [Xen-users] xm vs. xl"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY26njmUW8kl74hDFw","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 21 08:47:25 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.060s]
+DEBUG:elasticsearch:> {"Sender": "prvs=0654e9e36=George.Dunlap@citrix.com", "message": "<CAFLBxZbv9uGxexUTDTbK14zhkevfOUH+NsFGOcpNyobKAuUsSQ@mail.gmail.com>", "subject": "Re: [Xen-users] xm vs. xl"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY26olmUW8kl74hDFx","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 21 08:47:25 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.070s]
+DEBUG:elasticsearch:> {"Sender": "prvs=0654e9e36=George.Dunlap@citrix.com", "message": "<CAFLBxZbv9uGxexUTDTbK14zhkevfOUH+NsFGOcpNyobKAuUsSQ@mail.gmail.com>", "subject": "Re: [Xen-users] xm vs. xl"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY26pjmUW8kl74hDFy","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 21 11:15:01 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.072s]
+DEBUG:elasticsearch:> {"Sender": "guillaume@msd.im", "message": "<1962f849-9a45-5e6b-92bc-9440a5052408@msd.im>", "subject": "[Xen-users] 'xl reboot domid' ignores all in-memory changes AND the\n domu's config file changes"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY26qqmUW8kl74hDFz","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 21 11:15:01 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.073s]
+DEBUG:elasticsearch:> {"Sender": "guillaume@msd.im", "message": "<1962f849-9a45-5e6b-92bc-9440a5052408@msd.im>", "subject": "[Xen-users] 'xl reboot domid' ignores all in-memory changes AND the\n domu's config file changes"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY26r3mUW8kl74hDF0","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 21 11:48:34 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.058s]
+DEBUG:elasticsearch:> {"Sender": "linux@thehobsons.co.uk", "message": "<E8B5FAD7-B78B-4C2F-8E47-5FD7354A3060@thehobsons.co.uk>", "subject": "Re: [Xen-users] 'xl reboot domid' ignores all in-memory changes AND\n\tthe domu's config file changes"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY26tBmUW8kl74hDF1","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 21 11:48:34 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.077s]
+DEBUG:elasticsearch:> {"Sender": "linux@thehobsons.co.uk", "message": "<E8B5FAD7-B78B-4C2F-8E47-5FD7354A3060@thehobsons.co.uk>", "subject": "Re: [Xen-users] 'xl reboot domid' ignores all in-memory changes AND\n\tthe domu's config file changes"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY26t-mUW8kl74hDF2","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 21 12:09:37 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.064s]
+DEBUG:elasticsearch:> {"Sender": "ahferroin7@gmail.com", "message": "<1f72f873-3d0a-b2dd-72aa-0d4141445733@gmail.com>", "subject": "Re: [Xen-users] 'xl reboot domid' ignores all in-memory changes AND\n the domu's config file changes"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY26vMmUW8kl74hDF3","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 21 12:09:37 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.071s]
+DEBUG:elasticsearch:> {"Sender": "ahferroin7@gmail.com", "message": "<1f72f873-3d0a-b2dd-72aa-0d4141445733@gmail.com>", "subject": "Re: [Xen-users] 'xl reboot domid' ignores all in-memory changes AND\n the domu's config file changes"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY26wOmUW8kl74hDF4","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 21 12:13:45 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.070s]
+DEBUG:elasticsearch:> {"Sender": "linux@thehobsons.co.uk", "message": "<9592E437-E7AF-4B2F-8929-457EF6AB285C@thehobsons.co.uk>", "subject": "Re: [Xen-users] 'xl reboot domid' ignores all in-memory changes AND\n\tthe domu's config file changes"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY26xXmUW8kl74hDF5","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 21 12:13:45 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.076s]
+DEBUG:elasticsearch:> {"Sender": "linux@thehobsons.co.uk", "message": "<9592E437-E7AF-4B2F-8929-457EF6AB285C@thehobsons.co.uk>", "subject": "Re: [Xen-users] 'xl reboot domid' ignores all in-memory changes AND\n\tthe domu's config file changes"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY26yemUW8kl74hDF6","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 21 12:33:27 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.053s]
+DEBUG:elasticsearch:> {"Sender": "ahferroin7@gmail.com", "message": "<94fe6faa-5334-0939-36c9-e33017382333@gmail.com>", "subject": "Re: [Xen-users] 'xl reboot domid' ignores all in-memory changes AND\n the domu's config file changes"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY26ztmUW8kl74hDF7","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 21 12:33:27 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.088s]
+DEBUG:elasticsearch:> {"Sender": "ahferroin7@gmail.com", "message": "<94fe6faa-5334-0939-36c9-e33017382333@gmail.com>", "subject": "Re: [Xen-users] 'xl reboot domid' ignores all in-memory changes AND\n the domu's config file changes"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY260kmUW8kl74hDF8","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 21 13:47:07 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.065s]
+DEBUG:elasticsearch:> {"Sender": "guillaume@msd.im", "message": "<7b97ca2a-4c6f-3842-97ce-7f10407a58c8@msd.im>", "subject": "Re: [Xen-users] 'xl reboot domid' ignores all in-memory changes AND\n the domu's config file changes"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY261-mUW8kl74hDF9","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 21 13:47:07 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.064s]
+DEBUG:elasticsearch:> {"Sender": "guillaume@msd.im", "message": "<7b97ca2a-4c6f-3842-97ce-7f10407a58c8@msd.im>", "subject": "Re: [Xen-users] 'xl reboot domid' ignores all in-memory changes AND\n the domu's config file changes"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY263AmUW8kl74hDF-","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 21 14:09:44 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.060s]
+DEBUG:elasticsearch:> {"Sender": "ahferroin7@gmail.com", "message": "<a96fb59e-ce15-4ced-5bc9-f85e387936d4@gmail.com>", "subject": "Re: [Xen-users] 'xl reboot domid' ignores all in-memory changes AND\n the domu's config file changes"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY264CmUW8kl74hDF_","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 21 14:09:44 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.064s]
+DEBUG:elasticsearch:> {"Sender": "ahferroin7@gmail.com", "message": "<a96fb59e-ce15-4ced-5bc9-f85e387936d4@gmail.com>", "subject": "Re: [Xen-users] 'xl reboot domid' ignores all in-memory changes AND\n the domu's config file changes"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY265BmUW8kl74hDGA","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 21 15:25:10 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.058s]
+DEBUG:elasticsearch:> {"Sender": "linux@thehobsons.co.uk", "message": "<65C7DBED-91D6-492E-8321-32750F84BF88@thehobsons.co.uk>", "subject": "Re: [Xen-users] 'xl reboot domid' ignores all in-memory changes AND\n\tthe domu's config file changes"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY266DmUW8kl74hDGB","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 21 15:25:10 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.054s]
+DEBUG:elasticsearch:> {"Sender": "linux@thehobsons.co.uk", "message": "<65C7DBED-91D6-492E-8321-32750F84BF88@thehobsons.co.uk>", "subject": "Re: [Xen-users] 'xl reboot domid' ignores all in-memory changes AND\n\tthe domu's config file changes"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY266_mUW8kl74hDGC","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 21 16:05:59 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.060s]
+DEBUG:elasticsearch:> {"Sender": "guillaume@msd.im", "message": "<8bfac3ed-e962-0237-806e-9fc125581847@msd.im>", "subject": "Re: [Xen-users] 'xl reboot domid' ignores all in-memory changes AND\n the domu's config file changes"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY2673mUW8kl74hDGD","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 21 16:05:59 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.063s]
+DEBUG:elasticsearch:> {"Sender": "guillaume@msd.im", "message": "<8bfac3ed-e962-0237-806e-9fc125581847@msd.im>", "subject": "Re: [Xen-users] 'xl reboot domid' ignores all in-memory changes AND\n the domu's config file changes"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY2683mUW8kl74hDGE","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 21 17:24:55 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.060s]
+DEBUG:elasticsearch:> {"Sender": "ahferroin7@gmail.com", "message": "<d9050fd5-8921-2038-c740-97873e9bf52f@gmail.com>", "subject": "Re: [Xen-users] 'xl reboot domid' ignores all in-memory changes AND\n the domu's config file changes"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY2693mUW8kl74hDGF","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 21 17:24:55 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.068s]
+DEBUG:elasticsearch:> {"Sender": "ahferroin7@gmail.com", "message": "<d9050fd5-8921-2038-c740-97873e9bf52f@gmail.com>", "subject": "Re: [Xen-users] 'xl reboot domid' ignores all in-memory changes AND\n the domu's config file changes"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY26-3mUW8kl74hDGG","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 21 19:35:01 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.065s]
+DEBUG:elasticsearch:> {"Sender": "linux@thehobsons.co.uk", "message": "<B9F2FD36-48F3-4055-AB33-EA734CD024F4@thehobsons.co.uk>", "subject": "Re: [Xen-users] 'xl reboot domid' ignores all in-memory changes AND\n\tthe domu's config file changes"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY26_8mUW8kl74hDGH","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Wed Sep 21 19:35:01 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.070s]
+DEBUG:elasticsearch:> {"Sender": "linux@thehobsons.co.uk", "message": "<B9F2FD36-48F3-4055-AB33-EA734CD024F4@thehobsons.co.uk>", "subject": "Re: [Xen-users] 'xl reboot domid' ignores all in-memory changes AND\n\tthe domu's config file changes"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY27A_mUW8kl74hDGI","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Thu Sep 22 02:10:38 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.070s]
+DEBUG:elasticsearch:> {"Sender": "kenneth_1_miller@raytheon.com", "message": "<OF0BF4BC73.2728455A-ON88258035.007BB0AB-88258035.007CFE75@raytheon.com>", "subject": "[Xen-users] Broblem With Xen Booting"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY27CImUW8kl74hDGJ","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Thu Sep 22 02:10:38 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.069s]
+DEBUG:elasticsearch:> {"Sender": "kenneth_1_miller@raytheon.com", "message": "<OF0BF4BC73.2728455A-ON88258035.007BB0AB-88258035.007CFE75@raytheon.com>", "subject": "[Xen-users] Broblem With Xen Booting"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY27DQmUW8kl74hDGK","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Thu Sep 22 05:27:34 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.074s]
+DEBUG:elasticsearch:> {"Sender": "manurcr@gmail.com", "message": "<CAPccoBTi6NrASSf4VyqBczPr5BvAzEgB5xojOw78AWo8ZoADPQ@mail.gmail.com>", "subject": "Re: [Xen-users] Cannot make VGA Passthrough with Xen 4.4.1"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY27EZmUW8kl74hDGL","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Thu Sep 22 05:27:34 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.075s]
+DEBUG:elasticsearch:> {"Sender": "manurcr@gmail.com", "message": "<CAPccoBTi6NrASSf4VyqBczPr5BvAzEgB5xojOw78AWo8ZoADPQ@mail.gmail.com>", "subject": "Re: [Xen-users] Cannot make VGA Passthrough with Xen 4.4.1"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY27FmmUW8kl74hDGM","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Thu Sep 22 11:29:45 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.076s]
+DEBUG:elasticsearch:> {"Sender": "ahferroin7@gmail.com", "message": "<aa21fde7-94f5-15ec-6e96-2b42c145e12a@gmail.com>", "subject": "Re: [Xen-users] 'xl reboot domid' ignores all in-memory changes AND\n the domu's config file changes"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY27G0mUW8kl74hDGN","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Thu Sep 22 11:29:45 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.070s]
+DEBUG:elasticsearch:> {"Sender": "ahferroin7@gmail.com", "message": "<aa21fde7-94f5-15ec-6e96-2b42c145e12a@gmail.com>", "subject": "Re: [Xen-users] 'xl reboot domid' ignores all in-memory changes AND\n the domu's config file changes"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY27IBmUW8kl74hDGO","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Thu Sep 22 16:09:43 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.070s]
+DEBUG:elasticsearch:> {"Sender": "guillaume@msd.im", "message": "<1a600232-6e97-f1c7-ffa2-130f4250bd3e@msd.im>", "subject": "Re: [Xen-users] 'xl reboot domid' ignores all in-memory changes AND\n the domu's config file changes"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY27JJmUW8kl74hDGP","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+DEBUG:perceval.backends.mbox:Message xen-users-bounces@lists.xen.org Thu Sep 22 16:09:43 2016 parsed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "POST /mboxes/summary HTTP/1.1" 201 142
+INFO:elasticsearch:POST http://localhost:9200/mboxes/summary [status:201 request:0.060s]
+DEBUG:elasticsearch:> {"Sender": "guillaume@msd.im", "message": "<1a600232-6e97-f1c7-ffa2-130f4250bd3e@msd.im>", "subject": "Re: [Xen-users] 'xl reboot domid' ignores all in-memory changes AND\n the domu's config file changes"}
+DEBUG:elasticsearch:< {"_index":"mboxes","_type":"summary","_id":"AVoY27KRmUW8kl74hDGQ","_version":1,"_shards":{"total":2,"successful":1,"failed":0},"created":true}
+INFO:perceval.backends.mbox:Done. 198/198 messages fetched; 0 ignored
+INFO:perceval.backends.mbox:Fetch process completed
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): localhost
+DEBUG:urllib3.connectionpool:http://localhost:9200 "PUT /thread HTTP/1.1" 200 21
+INFO:elasticsearch:PUT http://localhost:9200/thread [status:200 request:0.217s]
+DEBUG:elasticsearch:> None
+DEBUG:elasticsearch:< {"acknowledged":true}
+DEBUG:urllib3.util.retry:Converted retries value: False -> Retry(total=False, connect=None, read=None, redirect=0)
+DEBUG:urllib3.connectionpool:http://localhost:9200 "GET /mboxes/_search HTTP/1.1" 200 2928
+INFO:elasticsearch:GET http://localhost:9200/mboxes/_search [status:200 request:0.002s]
+DEBUG:elasticsearch:> None
+DEBUG:elasticsearch:< {"took":1,"timed_out":false,"_shards":{"total":5,"successful":5,"failed":0},"hits":{"total":198,"max_score":1.0,"hits":[{"_index":"mboxes","_type":"summary","_id":"AVoY26NxmUW8kl74hDFY","_score":1.0,"_source":{"Sender": "jsun@junsun.net", "message": "<CAP5Nno4pGBMd4kAzXH-rO3dL6K45z5-sBC30Q-CNhoo3vZkpUA@mail.gmail.com>", "subject": "[Xen-users] prebuilt static ARM64 xen tools, anyone?"}},{"_index":"mboxes","_type":"summary","_id":"AVoY26OtmUW8kl74hDFZ","_score":1.0,"_source":{"Sender": "carl.schneider+mailinglists@rub.de", "message": "<b692e82e-b095-6b25-9bbc-5cf9a9d76531@rub.de>", "subject": "[Xen-users] Hardware compability (C236 + E3-1275v5)"}},{"_index":"mboxes","_type":"summary","_id":"AVoY26PwmUW8kl74hDFa","_score":1.0,"_source":{"Sender": "carl.schneider+mailinglists@rub.de", "message": "<b692e82e-b095-6b25-9bbc-5cf9a9d76531@rub.de>", "subject": "[Xen-users] Hardware compability (C236 + E3-1275v5)"}},{"_index":"mboxes","_type":"summary","_id":"AVoY26QzmUW8kl74hDFb","_score":1.0,"_source":{"Sender": "dunlapg@gmail.com", "message": "<CAFLBxZbV1kNjHUF89Os_gq+pPaoGbqNcn-Ybi2L344P6Ur=VKg@mail.gmail.com>", "subject": "Re: [Xen-users] Questions on hvmloader,\n direct kernel boot and simulated BIOS"}},{"_index":"mboxes","_type":"summary","_id":"AVoY26R1mUW8kl74hDFc","_score":1.0,"_source":{"Sender": "dunlapg@gmail.com", "message": "<CAFLBxZbV1kNjHUF89Os_gq+pPaoGbqNcn-Ybi2L344P6Ur=VKg@mail.gmail.com>", "subject": "Re: [Xen-users] Questions on hvmloader,\n direct kernel boot and simulated BIOS"}},{"_index":"mboxes","_type":"summary","_id":"AVoY26UGmUW8kl74hDFe","_score":1.0,"_source":{"Sender": "brettstahlman@gmail.com", "message": "<CAOyxqKkORvyeSheR4y5BBXbEWfoyouxcReCfk9UKbh0bW7Vt1Q@mail.gmail.com>", "subject": "Re: [Xen-users] Questions on hvmloader,\n direct kernel boot and simulated BIOS"}},{"_index":"mboxes","_type":"summary","_id":"AVoY26ZlmUW8kl74hDFj","_score":1.0,"_source":{"Sender": "carl.schneider+mailinglists@rub.de", "message": "<647c90ab-135f-1891-031f-4372a5ea445b@rub.de>", "subject": "Re: [Xen-users] Cannot make VGA Passthrough with Xen 4.4.1"}},{"_index":"mboxes","_type":"summary","_id":"AVoY24t7mUW8kl74hDD-","_score":1.0,"_source":{"Sender": "brettstahlman@gmail.com", "message": "<CAOyxqKnbt6aaBNC+y_hp1_Sh8UkQe_stFqFg52GPypoNhpjFaw@mail.gmail.com>", "subject": "Re: [Xen-users] Wrong version of xen-utils after building xen from\n source causes xen to exit with error"}},{"_index":"mboxes","_type":"summary","_id":"AVoY24xOmUW8kl74hDEB","_score":1.0,"_source":{"Sender": "miles@atmos.eu", "message": "<3d258ed8-4cb2-e6e0-76b7-81f06c835b53@atmos.eu>", "subject": "Re: [Xen-users] Xen 4.7.0 graphics pass through problems (Win10,\n AMD Radeon)"}},{"_index":"mboxes","_type":"summary","_id":"AVoY24zmmUW8kl74hDED","_score":1.0,"_source":{"Sender": "asw@th.com.br", "message": "<57D2A1EF.2040800@th.com.br>", "subject": "Re: [Xen-users] PV guests concurrent running limit"}}]}}

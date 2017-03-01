@@ -332,18 +332,16 @@ def message_details(filename, file):
 
     subject_table = thread(msglist)
 
+    print('Threading...')
+    subject_table = thread(msglist)
+
+    # Output
     L = subject_table.items()
     sorted(L)
-    m2 = []
     for subj, container in L:
-        for h in subj:
-            m2.append(h)
-            for x,y in enumerate(m2):
-                messages[x] = []
-                msg_ids(container, messages[subj])
+        print_container(container)
 
     os.remove('mbox')
     return messages
 
     
-

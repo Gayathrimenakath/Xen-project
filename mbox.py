@@ -28,6 +28,8 @@ class MboxParser:
             message_id = item['data']['Message-ID']
             with open(output_file,'a') as f:
                 json.dump(item, f, ensure_ascii=True, indent=4)
+
+        messages = th.message_details(mbox_files, file=True)
                 
 
 
@@ -44,5 +46,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-
 

@@ -36,7 +36,8 @@ class MboxParser:
         for mboxes in percevalout:           
             # Create the object (dictionary) to upload to ElasticSearch
             summary = {'message': mboxes['data']['Message-ID'],
-                       'Sender': mboxes['data']['X-Env-Sender']}
+                       'Sender': mboxes['data']['X-Env-Sender'],
+                       'subject': mboxes['data']['Subject']}
             print(summary)
             # Upload the object to ElasticSearch
             es.index(index=indexname, doc_type='summary', body=summary)
