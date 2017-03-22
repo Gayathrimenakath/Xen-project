@@ -1,4 +1,4 @@
-import perceval.backends as backend
+from perceval.backends.core.mbox import MBox
 import elasticsearch
 
 import logging
@@ -17,7 +17,7 @@ es = elasticsearch.Elasticsearch(['http://localhost:9200/'])
 class MboxParser:
 
     def getmbox(self, mbox_files):
-        mbox_parser = backend.mbox.MBox(
+        mbox_parser = MBox(
                 uri = mbox_files,
                 dirpath='./mboxes'
         )

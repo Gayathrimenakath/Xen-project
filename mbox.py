@@ -5,7 +5,7 @@ import argparse
 import logging
 
 import jwzthreading as th
-import perceval.backends as backend
+from perceval.backends.core.mbox import MBox
 
 
 msg_ids = []
@@ -15,7 +15,7 @@ msg_json = []
 class MboxParser:
 
     def getmbox(self, mbox_files):
-        mbox_parser = backend.mbox.MBox(
+        mbox_parser = MBox(
                 uri = mbox_files,
                 dirpath='./mboxes'
         )
@@ -26,10 +26,12 @@ class MboxParser:
         message_id = ''
         for item in percevalout:
             message_id = item['data']['Message-ID']
-            with open(output_file,'a') as f:
-                json.dump(item, f, ensure_ascii=True, indent=4)
+            if message_id not in msg_ids:
+                msg_ids.append(message_id)
+                msg_json.append(item)
+        messages = th.message_details(mbox_files, output_file)
+        print(messages)
 
-        messages = th.message_details(mbox_files, file=True)
                 
 
 
@@ -46,4 +48,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 

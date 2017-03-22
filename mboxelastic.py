@@ -9,7 +9,7 @@ import jwzthreading as th
 from jwzthreading import Container
 container = Container()
 
-import perceval.backends
+from perceval.backends.core.mbox 
 import elasticsearch
 
 import logging
