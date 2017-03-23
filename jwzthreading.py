@@ -106,10 +106,12 @@ def make_message (msg):
     message.
     """
     new = Message(msg)
+    #print(msg)
 
     m = msgid_pat.search(msg.get("Message-ID", ""))
     if m is None:
-        raise ValueError("Message does not contain a Message-ID: header")
+        #raise ValueError("Message does not contain a Message-ID: header")
+        return
 
     new.message_id = m.group(1)
 
@@ -312,8 +314,8 @@ def thread (msglist):
 
     return subject_table
 
-messages = {}
-msg = []
+#messages = {}
+#msg = []
 def msg_ids(ctr, message_list = [], depth=0, debug=0):
     """
     This function creates a message_list dictionary with messgae IDs
@@ -361,9 +363,13 @@ def message_details(filename,Outputfile):
     import os
     global mbox
 
+    import mailbox
+    import os
+    global mbox
+
     local_filename = filename.split('x/')[-1]
     print(local_filename)
-    folder = '/home/gayathri/Xen/mboxes/'
+    folder = '/home/gayathri/xenprac/mboxes/'
     local_filename = folder + local_filename
     print(local_filename)
     #os.system('wget %s -P mboxes' %filename)
@@ -372,17 +378,20 @@ def message_details(filename,Outputfile):
     if my_file.is_file():
         mbox = mailbox.mbox(local_filename)
     else:
+        #os.system('wget %s -P %s' %(filename, folder))
         os.system('wget %s -P %s' %(filename, folder))
         #urllib.request.urlretrieve(filename, filename)
         mbox = mailbox.mbox(local_filename)
 
     msglist = []
-    messages = []
+    messages = {}
 
     for message in mbox:
         m = make_message(message)
-        msglist.append(m)
+        if m is not None:
+            msglist.append(m)
 
+    
     print('Threading...')
     subject_table = thread(msglist)
 
@@ -391,8 +400,11 @@ def message_details(filename,Outputfile):
     sorted(L)
     with open(Outputfile,'w+') as f:
         for subj, container in L:
-            print_container(container,f)
+            print(subj)
+            #print_container(container,f)
+            messages[subj] = []
+            msg_ids(container, messages[subj])
         f.close()
         
-    os.remove(local_filename)
-    return container
+    #os.remove(local_filename)
+    return messages
