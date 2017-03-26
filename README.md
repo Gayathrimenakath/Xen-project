@@ -8,5 +8,8 @@ eg: python3 mbox.py --mbox http://lists.xenproject.org/archives/html/mbox/xen-de
 The threaded data is feeded to Elasticsearch database.
 eg: python perceval_elasticparse.py --filename new.json --indexname mboxes
 
+A search can be performed by giving the field name and the expected value.
+python3 search.py --field Sender --result wei.w.wang@intel.com --indexname mboxes
+
 
 A dashboard for the data has to be produced using Kibana.

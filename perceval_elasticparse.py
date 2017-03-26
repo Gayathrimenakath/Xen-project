@@ -29,13 +29,19 @@ class MboxElastic:
                 while True:
                     try:
                         jfile = json.loads(line, strict=False)
+                        # Create the object (dictionary) to upload to ElasticSearch
+                        for j in jfile:
+                            summary = {'message': jfile['data']['Message-ID'],
+                       'Sender': jfile['data']['X-Env-Sender'],
+                       'From' : jfile['data']['From']
+                       }
                         break
                     except ValueError:
                         # Not yet a complete JSON value
                         line += next(f)
 
-                
-                es.index(index=indexname, doc_type='summary', body=jfile)
+                # Upload the object to ElasticSearch
+                es.index(index=indexname, doc_type='summary', body=summary)
             f.close()
                 
                 
